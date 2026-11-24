@@ -1,0 +1,3234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#070d19">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>North Sikkim Tour 2026 | Nov 29 - Dec 05</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ios-spring: cubic-bezier(0.22, 1, 0.36, 1);
+      --ios-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+      /* Himalayan Twilight & Aurora Palette (Glacier Dark) */
+      --bg-page: #070d19;
+      --bg-gradient: radial-gradient(ellipse 85% 55% at 12% 0%, rgba(16, 185, 129, 0.22) 0%, transparent 58%),
+                     radial-gradient(ellipse 75% 50% at 88% 6%, rgba(99, 102, 241, 0.24) 0%, transparent 56%),
+                     radial-gradient(ellipse 65% 45% at 50% 95%, rgba(245, 158, 11, 0.12) 0%, transparent 60%),
+                     linear-gradient(180deg, #070d19 0%, #0d172a 52%, #091120 100%);
+      --card-bg: rgba(13, 22, 40, 0.86);
+      --card-border: rgba(129, 140, 248, 0.28);
+      --subcard-bg: rgba(18, 30, 54, 0.88);
+      --subcard-hover: rgba(25, 42, 74, 0.96);
+      --subcard-border: rgba(52, 211, 153, 0.22);
+      --input-bg: rgba(7, 13, 25, 0.92);
+      --input-border: rgba(129, 140, 248, 0.36);
+      --text-primary: #f8fafc;
+      --text-secondary: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent-teal: #34d399;
+      --accent-cyan: #60a5fa;
+      --accent-amber: #fbbf24;
+      --snow-rgb: 224, 242, 254;
+      --sheet-line: rgba(129, 140, 248, 0.16);
+      --sheet-header: rgba(16, 185, 129, 0.14);
+      --font-heading: 'Cinzel', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    body.light-theme {
+      /* Crisp Himalayan Snow & Saffron Daylight Palette */
+      --bg-page: #f0f7f6;
+      --bg-gradient: radial-gradient(ellipse 90% 60% at 10% 0%, rgba(16, 185, 129, 0.16) 0%, transparent 58%),
+                     radial-gradient(ellipse 80% 50% at 92% 8%, rgba(79, 70, 229, 0.12) 0%, transparent 55%),
+                     radial-gradient(ellipse 70% 45% at 50% 100%, rgba(245, 158, 11, 0.1) 0%, transparent 60%),
+                     linear-gradient(180deg, #e6f4f1 0%, #f4f7fb 50%, #eef2f6 100%);
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --card-border: rgba(255, 255, 255, 0.88);
+      --subcard-bg: rgba(248, 251, 252, 0.94);
+      --subcard-hover: rgba(255, 255, 255, 1);
+      --subcard-border: rgba(15, 118, 110, 0.18);
+      --input-bg: rgba(255, 255, 255, 0.98);
+      --input-border: rgba(15, 23, 42, 0.18);
+      --text-primary: #0f172a;
+      --text-secondary: #1e293b;
+      --text-muted: #475569;
+      --accent-teal: #059669;
+      --accent-cyan: #2563eb;
+      --accent-amber: #d97706;
+      --snow-rgb: 13, 148, 136;
+      --sheet-line: rgba(15, 118, 110, 0.14);
+      --sheet-header: rgba(16, 185, 129, 0.09);
+      color-scheme: light;
+    }
+
+    * {
+      -webkit-tap-highlight-color: transparent;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      color-scheme: dark;
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      background-image: var(--bg-gradient);
+      background-attachment: fixed;
+      padding-top: var(--safe-top);
+      padding-bottom: calc(5.25rem + var(--safe-bottom));
+      transition: background-color 0.45s var(--ios-spring), color 0.35s var(--ios-spring);
+    }
+
+    @media (min-width: 1024px) {
+      body {
+        padding-bottom: 3.5rem;
+      }
+    }
+
+    body.light-theme .text-white {
+      color: #0f172a !important;
+    }
+    body.light-theme .text-white-keep,
+    .text-white-keep {
+      color: #ffffff !important;
+    }
+
+    button, .ios-pressable {
+      transition: transform 0.35s var(--ios-spring), background-color 0.3s var(--ios-spring), border-color 0.3s var(--ios-spring), box-shadow 0.35s var(--ios-spring), opacity 0.3s ease;
+      will-change: transform;
+    }
+    button:active:not(:disabled), .ios-pressable:active {
+      transform: scale(0.96);
+    }
+
+    .btn-solid-sky {
+      background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%) !important;
+      color: #ffffff !important;
+    }
+    .btn-solid-sky:hover {
+      background: linear-gradient(135deg, #1d4ed8 0%, #4338ca 100%) !important;
+    }
+
+    .btn-solid-teal {
+      background: linear-gradient(135deg, #059669 0%, #0d9488 100%) !important;
+      color: #ffffff !important;
+    }
+    .btn-solid-teal:hover {
+      background: linear-gradient(135deg, #047857 0%, #0f766e 100%) !important;
+    }
+
+    .btn-solid-amber {
+      background: linear-gradient(135deg, #d97706 0%, #ea580c 100%) !important;
+      color: #ffffff !important;
+    }
+
+    .btn-solid-gradient {
+      background: linear-gradient(135deg, #059669 0%, #0284c7 52%, #4f46e5 100%) !important;
+      color: #ffffff !important;
+    }
+    .btn-solid-gradient:hover {
+      background: linear-gradient(135deg, #047857 0%, #0369a1 52%, #4338ca 100%) !important;
+    }
+
+    .day-pill-pending {
+      background-color: #e0e7ff;
+      color: #3730a3;
+      border: 1px solid #a5b4fc;
+      transition: all 0.35s var(--ios-spring);
+    }
+    body:not(.light-theme) .day-pill-pending {
+      background-color: rgba(79, 70, 229, 0.28);
+      color: #a5b4fc;
+      border: 1px solid rgba(129, 140, 248, 0.55);
+    }
+
+    #snow-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 40;
+    }
+
+    header, main {
+      position: relative;
+      z-index: 10;
+    }
+
+    .heading-font { font-family: var(--font-heading); }
+
+    .glass-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(26px) saturate(180%);
+      -webkit-backdrop-filter: blur(26px) saturate(180%);
+      border: 1px solid var(--card-border);
+      border-radius: 1.35rem;
+      box-shadow: 
+        0 20px 44px -14px rgba(2, 8, 20, 0.34),
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+      transition: background 0.4s var(--ios-spring), border-color 0.4s var(--ios-spring), box-shadow 0.4s var(--ios-spring);
+    }
+
+    @media (min-width: 640px) {
+      .glass-card {
+        border-radius: 1.5rem;
+      }
+    }
+
+    .glass-subcard {
+      background: var(--subcard-bg);
+      backdrop-filter: blur(18px) saturate(160%);
+      -webkit-backdrop-filter: blur(18px) saturate(160%);
+      border: 1px solid var(--subcard-border);
+      box-shadow: 0 6px 18px -6px rgba(2, 8, 20, 0.14), inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+      transition: transform 0.4s var(--ios-spring), border-color 0.35s var(--ios-spring), background-color 0.35s var(--ios-spring), box-shadow 0.4s var(--ios-spring);
+    }
+
+    @media (hover: hover) {
+      .glass-subcard:hover {
+        border-color: var(--accent-teal);
+        background: var(--subcard-hover);
+        transform: translateY(-2px);
+        box-shadow: 0 14px 28px -10px rgba(16, 185, 129, 0.22), inset 0 1px 0 0 rgba(255, 255, 255, 0.22);
+      }
+    }
+
+    .glass-input {
+      background: var(--input-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--input-border);
+      color: var(--text-primary);
+      transition: border-color 0.3s var(--ios-spring), box-shadow 0.3s var(--ios-spring), background-color 0.3s var(--ios-spring);
+    }
+    .glass-input:focus {
+      outline: none;
+      border-color: #34d399;
+      box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.22);
+    }
+    .glass-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .text-adaptive-primary { color: var(--text-primary); }
+    .text-adaptive-secondary { color: var(--text-secondary); }
+    .text-adaptive-muted { color: var(--text-muted); }
+    .text-adaptive-teal { color: var(--accent-teal); }
+    .text-adaptive-cyan { color: var(--accent-cyan); }
+    .text-adaptive-amber { color: var(--accent-amber); }
+
+    .badge-surface {
+      background: var(--subcard-bg);
+      backdrop-filter: blur(14px) saturate(150%);
+      -webkit-backdrop-filter: blur(14px) saturate(150%);
+      border: 1px solid var(--subcard-border);
+      color: var(--text-secondary);
+      transition: all 0.35s var(--ios-spring);
+    }
+
+    .pill-sky {
+      background: rgba(96, 165, 250, 0.16);
+      border: 1px solid rgba(96, 165, 250, 0.38);
+      color: var(--accent-cyan);
+    }
+
+    .pill-teal {
+      background: rgba(52, 211, 153, 0.16);
+      border: 1px solid rgba(52, 211, 153, 0.38);
+      color: var(--accent-teal);
+    }
+
+    .pill-amber {
+      background: rgba(251, 191, 36, 0.16);
+      border: 1px solid rgba(251, 191, 36, 0.38);
+      color: var(--accent-amber);
+    }
+
+    @keyframes iosGlassReveal {
+      from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.985);
+        filter: blur(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+      }
+    }
+
+    @keyframes progressShimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(220%); }
+    }
+
+    .progress-shimmer::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      width: 45%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.38), transparent);
+      animation: progressShimmer 2.4s infinite ease-in-out;
+    }
+
+    .ios-view-enter {
+      animation: iosGlassReveal 0.42s var(--ios-spring) forwards;
+    }
+
+    .notebook-sheet-wrapper {
+      background: var(--subcard-bg);
+      backdrop-filter: blur(22px) saturate(170%);
+      -webkit-backdrop-filter: blur(22px) saturate(170%);
+      border: 1px solid var(--subcard-border);
+      border-radius: 1.25rem;
+      overflow: hidden;
+      box-shadow: 0 12px 32px -12px rgba(2, 8, 20, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    }
+
+    .notebook-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .notebook-table thead th {
+      background: var(--sheet-header);
+      border-bottom: 1.5px solid var(--subcard-border);
+      border-right: 1px solid var(--sheet-line);
+      padding: 0.65rem 0.65rem;
+      font-size: 0.66rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+    .notebook-table thead th:last-child {
+      border-right: none;
+    }
+
+    .notebook-table tbody tr {
+      border-bottom: 1px solid var(--sheet-line);
+      transition: background-color 0.25s var(--ios-spring);
+    }
+    .notebook-table tbody tr:hover {
+      background: rgba(52, 211, 153, 0.08);
+    }
+
+    .notebook-table tbody td {
+      padding: 0.6rem 0.65rem;
+      border-right: 1px solid var(--sheet-line);
+      vertical-align: middle;
+    }
+    .notebook-table tbody td:last-child {
+      border-right: none;
+    }
+
+    .notebook-margin-col {
+      border-right: 2px solid rgba(244, 63, 94, 0.38) !important;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .hero-slideshow {
+      position: relative;
+      overflow: hidden;
+      min-height: 280px;
+      border-radius: 1.45rem;
+      background-color: #070d19;
+      border: 1px solid rgba(129, 140, 248, 0.38);
+      box-shadow: 0 22px 50px -15px rgba(4, 10, 24, 0.65);
+      transition: background-color 0.4s var(--ios-spring), border-color 0.4s var(--ios-spring), box-shadow 0.4s var(--ios-spring);
+    }
+    @media (min-width: 640px) {
+      .hero-slideshow {
+        min-height: 390px;
+        border-radius: 1.65rem;
+      }
+    }
+    body.light-theme .hero-slideshow {
+      background-color: #0f293a;
+      border: 1px solid rgba(255, 255, 255, 0.75);
+      box-shadow: 0 20px 44px -14px rgba(15, 23, 42, 0.24);
+    }
+
+    #hero-slides-container {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hero-slide {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1.35s var(--ios-spring);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hero-slide.active {
+      opacity: 1;
+    }
+
+    .hero-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.0);
+      transition: transform 9.5s var(--ios-spring);
+    }
+
+    .hero-slide.active img {
+      transform: scale(1.08);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: 
+        radial-gradient(circle at 50% 42%, rgba(7, 13, 25, 0.52) 0%, rgba(7, 13, 25, 0.85) 100%),
+        linear-gradient(180deg, rgba(7, 13, 25, 0.68) 0%, rgba(7, 13, 25, 0.38) 45%, rgba(7, 13, 25, 0.9) 100%);
+      transition: background 0.45s var(--ios-spring);
+    }
+    body.light-theme .hero-overlay {
+      background: 
+        radial-gradient(circle at 50% 45%, rgba(12, 29, 54, 0.24) 0%, rgba(12, 29, 54, 0.58) 100%),
+        linear-gradient(180deg, rgba(12, 29, 54, 0.52) 0%, rgba(12, 29, 54, 0.22) 45%, rgba(12, 29, 54, 0.7) 100%);
+    }
+
+    .hero-title {
+      color: #ffffff !important;
+      text-shadow: 0 4px 18px rgba(4, 10, 22, 0.9), 0 1px 3px rgba(0, 0, 0, 0.85);
+    }
+
+    .hero-pill-bar {
+      background: rgba(11, 19, 36, 0.84);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(165, 180, 252, 0.28);
+      color: #f8fafc;
+      transition: all 0.35s var(--ios-spring);
+    }
+    body.light-theme .hero-pill-bar {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(255, 255, 255, 0.96);
+      color: #0f172a;
+      box-shadow: 0 8px 22px -4px rgba(15, 23, 42, 0.16);
+    }
+
+    .hero-nav-btn {
+      background: rgba(11, 19, 36, 0.84);
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      color: #ffffff;
+      border: 1px solid rgba(165, 180, 252, 0.3);
+    }
+    body.light-theme .hero-nav-btn {
+      background: rgba(255, 255, 255, 0.95);
+      color: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.98);
+      box-shadow: 0 8px 20px -4px rgba(15, 23, 42, 0.2);
+    }
+
+    .hero-divider {
+      border-top: 1px solid rgba(255, 255, 255, 0.22);
+    }
+    body.light-theme .hero-divider {
+      border-top: 1px solid rgba(255, 255, 255, 0.35);
+    }
+
+    .countdown-tile {
+      background: rgba(11, 19, 36, 0.84);
+      backdrop-filter: blur(22px) saturate(185%);
+      -webkit-backdrop-filter: blur(22px) saturate(185%);
+      border: 1px solid rgba(52, 211, 153, 0.34);
+      box-shadow: 0 14px 32px -6px rgba(2, 6, 23, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+      transition: transform 0.4s var(--ios-spring), border-color 0.35s var(--ios-spring), background-color 0.4s var(--ios-spring);
+    }
+    body.light-theme .countdown-tile {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(255, 255, 255, 0.98);
+      box-shadow: 0 16px 34px -6px rgba(15, 23, 42, 0.2), inset 0 1px 0 rgba(255, 255, 255, 1);
+    }
+
+    .cd-number { color: #ffffff; font-variant-numeric: tabular-nums; }
+    body.light-theme .cd-number { color: #0f172a; }
+
+    .cd-label { color: #34d399; }
+    body.light-theme .cd-label { color: #059669; }
+
+    .cd-sec-number { color: #fbbf24; font-variant-numeric: tabular-nums; }
+    body.light-theme .cd-sec-number { color: #d97706; }
+
+    .cd-sec-label { color: #fcd34d; }
+    body.light-theme .cd-sec-label { color: #b45309; }
+
+    .timeline-line {
+      position: relative;
+    }
+    .timeline-line::before {
+      content: '';
+      position: absolute;
+      left: 1.05rem;
+      top: 1.4rem;
+      bottom: 1.4rem;
+      width: 2px;
+      background: linear-gradient(180deg, #10b981, #4f46e5, #f59e0b);
+      opacity: 0.5;
+      border-radius: 999px;
+      z-index: 0;
+    }
+
+    /* Hero Banner View Cross-Fade (Slideshow <-> Elevation Tracker) */
+    .hero-mode-layer {
+      transition: opacity 0.55s var(--ios-spring), transform 0.55s var(--ios-spring), filter 0.45s var(--ios-spring);
+      will-change: opacity, transform;
+    }
+    .hero-mode-hidden {
+      opacity: 0;
+      transform: scale(0.97) translateY(8px);
+      filter: blur(6px);
+      pointer-events: none;
+      position: absolute;
+      inset: 0;
+    }
+    .hero-mode-visible {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+      filter: blur(0);
+      pointer-events: auto;
+      position: relative;
+    }
+
+    @keyframes beaconPulse {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.85); opacity: 0; }
+    }
+    .altitude-beacon-ring {
+      transform-origin: center;
+      transform-box: fill-box;
+      animation: beaconPulse 2.2s infinite ease-out;
+    }
+
+    /* Boarding Pass Ticket Perforation */
+    .boarding-pass-card {
+      position: relative;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.94) 0%, rgba(17, 34, 64, 0.92) 55%, rgba(6, 78, 59, 0.88) 100%);
+      border: 1px solid rgba(52, 211, 153, 0.38);
+      border-radius: 1.25rem;
+      overflow: hidden;
+      box-shadow: 0 18px 38px -12px rgba(2, 8, 20, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    }
+    body.light-theme .boarding-pass-card {
+      background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 58%, #eff6ff 100%);
+      border: 1px solid rgba(13, 148, 136, 0.28);
+      box-shadow: 0 16px 34px -10px rgba(15, 23, 42, 0.14), inset 0 1px 0 #ffffff;
+    }
+    .pass-perforation {
+      position: relative;
+      border-top: 2px dashed rgba(148, 163, 184, 0.35);
+    }
+    .pass-perforation::before,
+    .pass-perforation::after {
+      content: '';
+      position: absolute;
+      top: -11px;
+      width: 20px;
+      height: 20px;
+      border-radius: 9999px;
+      background: var(--bg-page);
+      border: 1px solid var(--card-border);
+    }
+    .pass-perforation::before { left: -24px; }
+    .pass-perforation::after { right: -24px; }
+
+    .barcode-bars {
+      height: 26px;
+      background: repeating-linear-gradient(
+        90deg,
+        currentColor 0px,
+        currentColor 2px,
+        transparent 2px,
+        transparent 5px,
+        currentColor 5px,
+        currentColor 6px,
+        transparent 6px,
+        transparent 9px,
+        currentColor 9px,
+        currentColor 12px,
+        transparent 12px,
+        transparent 14px
+      );
+      opacity: 0.78;
+    }
+
+    /* Native Mobile Floating Bottom Navigation Bar */
+    .mobile-bottom-dock {
+      position: fixed;
+      bottom: calc(0.55rem + var(--safe-bottom));
+      left: 0.65rem;
+      right: 0.65rem;
+      z-index: 45;
+      background: var(--card-bg);
+      backdrop-filter: blur(28px) saturate(190%);
+      -webkit-backdrop-filter: blur(28px) saturate(190%);
+      border: 1px solid var(--card-border);
+      border-radius: 1.35rem;
+      box-shadow: 0 18px 42px -10px rgba(2, 8, 20, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    }
+
+    .custom-scroll {
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: rgba(15, 23, 42, 0.12);
+      border-radius: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(16, 185, 129, 0.45);
+      border-radius: 4px;
+    }
+
+    /* Prevent iOS auto-zoom on input focus & guarantee 44px mobile touch targets */
+    @media (max-width: 640px) {
+      input[type="text"],
+      input[type="number"],
+      input[type="email"],
+      input[type="password"],
+      select {
+        font-size: 16px !important;
+        min-height: 44px;
+      }
+      .mobile-touch-btn {
+        min-height: 40px;
+      }
+    }
+    button, select, input, a {
+      touch-action: manipulation;
+    }
+  </style>
+</head>
+<body class="min-h-screen antialiased overflow-x-hidden selection:bg-emerald-400 selection:text-slate-950">
+
+  <!-- MANDATORY SIGN-IN EXPEDITION GATE -->
+  <div id="auth-gate-overlay" class="fixed inset-0 z-50 flex items-center justify-center p-3.5 sm:p-4 backdrop-blur-2xl bg-slate-950/85 transition-all duration-500 overflow-y-auto">
+    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80" alt="North Sikkim Himalayas" class="fixed inset-0 w-full h-full object-cover opacity-30 pointer-events-none">
+    <div class="fixed inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/60 to-slate-950/90 pointer-events-none"></div>
+
+    <div class="relative z-10 glass-card max-w-md w-full my-auto overflow-hidden text-center shadow-2xl border border-indigo-400/40 ios-view-enter">
+      <div class="grid grid-cols-3 gap-0.5 h-28 sm:h-36 bg-slate-900">
+        <div class="relative overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80" alt="Gangtok Himalayan Hills & Monastery" class="w-full h-full object-cover">
+          <span class="absolute bottom-1.5 left-1.5 text-[9px] font-extrabold uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-slate-950/75 backdrop-blur-md text-white-keep">Gangtok</span>
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Yumthang Valley" class="w-full h-full object-cover">
+          <span class="absolute bottom-1.5 left-1.5 text-[9px] font-extrabold uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-slate-950/75 backdrop-blur-md text-white-keep">Yumthang</span>
+        </div>
+        <div class="relative overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Zero Point Peaks" class="w-full h-full object-cover">
+          <span class="absolute bottom-1.5 left-1.5 text-[9px] font-extrabold uppercase tracking-wider px-1.5 py-0.5 rounded-md bg-slate-950/75 backdrop-blur-md text-white-keep">Zero Point</span>
+        </div>
+      </div>
+
+      <div class="p-5 sm:p-7 space-y-4 sm:space-y-5">
+        <div class="space-y-1.5">
+          <h2 class="text-xl sm:text-3xl font-black tracking-wider text-adaptive-primary heading-font">
+            NORTH SIKKIM TOUR 2026
+          </h2>
+        </div>
+
+        <div class="space-y-3">
+          <button id="gate-google-signin-btn" onclick="handleGoogleAuthClick()" class="w-full min-h-[46px] py-3 px-4 rounded-2xl btn-solid-gradient font-extrabold text-sm shadow-lg flex items-center justify-center gap-2.5">
+            <i class="fab fa-google text-base text-white-keep"></i>
+            <span id="gate-signin-label">Continue with Google Account</span>
+          </button>
+
+          <div class="relative flex items-center py-0.5">
+            <div class="flex-grow border-t border-slate-500/30"></div>
+            <span class="flex-shrink mx-3 text-[10px] font-extrabold uppercase tracking-widest text-adaptive-muted">or with email</span>
+            <div class="flex-grow border-t border-slate-500/30"></div>
+          </div>
+
+          <div class="space-y-2.5 text-left">
+            <div id="email-name-wrapper" class="hidden">
+              <input type="text" id="auth-first-name" placeholder="Your First Name (e.g. Priyadip)" class="w-full px-3.5 py-2.5 text-sm font-medium glass-input rounded-xl">
+            </div>
+            <input type="email" id="auth-email" autocomplete="email" placeholder="Email address" class="w-full px-3.5 py-2.5 text-sm font-medium glass-input rounded-xl">
+            <input type="password" id="auth-password" autocomplete="current-password" placeholder="Password (min 6 characters)" onkeydown="if(event.key==='Enter') handleEmailAuthSubmit()" class="w-full px-3.5 py-2.5 text-sm font-medium glass-input rounded-xl">
+
+            <button id="gate-email-submit-btn" onclick="handleEmailAuthSubmit()" class="w-full min-h-[44px] py-2.5 px-4 rounded-xl btn-solid-sky font-extrabold text-sm shadow flex items-center justify-center gap-2">
+              <i class="fas fa-envelope text-white-keep"></i>
+              <span id="gate-email-submit-label">Sign In with Email</span>
+            </button>
+
+            <div class="flex items-center justify-between text-xs pt-1">
+              <button type="button" onclick="toggleEmailAuthMode()" id="toggle-email-mode-btn" class="text-adaptive-cyan hover:underline font-bold py-1">
+                New explorer? Create account
+              </button>
+              <button type="button" onclick="handlePasswordReset()" class="text-adaptive-muted hover:text-adaptive-primary font-semibold py-1">
+                Forgot password?
+              </button>
+            </div>
+          </div>
+
+          <p id="gate-auth-status" class="text-xs font-semibold text-adaptive-amber min-h-[1.25rem]">
+            Checking active session...
+          </p>
+        </div>
+
+        <div class="pt-3 border-t border-slate-500/25 flex items-center justify-between text-[11px] text-adaptive-muted font-semibold">
+          <span><i class="fas fa-snowflake text-adaptive-cyan mr-1"></i> Nov 29 – Dec 05, 2026</span>
+          <span><i class="fas fa-cloud text-adaptive-teal mr-1"></i> Live Firestore Sync</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AMBIENT SNOWFLAKES CANVAS -->
+  <canvas id="snow-canvas" aria-hidden="true"></canvas>
+
+  <!-- TOP HEADER (SCROLLS NATURALLY ON MOBILE, COMPACT SINGLE-ROW ZERO-OVERLAP) -->
+  <header id="portal-header" class="hidden relative lg:sticky lg:top-3 z-40 glass-card max-w-7xl mx-2 sm:mx-3 xl:mx-auto mt-2 sm:mt-3 px-2.5 sm:px-4 py-2 sm:py-3 flex items-center justify-between gap-1.5 sm:gap-2 ios-view-enter">
+    <div class="flex items-center gap-2 min-w-0 flex-1">
+      <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl btn-solid-gradient flex-shrink-0 flex items-center justify-center shadow-md">
+        <i class="fas fa-mountain text-xs sm:text-base text-white-keep"></i>
+      </div>
+      <div class="min-w-0 flex-1">
+        <div class="flex items-center gap-1.5">
+          <h1 class="text-[11px] sm:text-lg font-black tracking-wide sm:tracking-wider text-adaptive-primary heading-font truncate">
+            <span class="sm:hidden">NORTH SIKKIM '26</span>
+            <span class="hidden sm:inline">NORTH SIKKIM TOUR 2026</span>
+          </h1>
+          <span id="sync-status-dot-mobile" class="sm:hidden w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" title="Sync status"></span>
+        </div>
+        <div class="hidden sm:flex items-center gap-1.5 mt-0.5">
+          <span id="sync-status-badge" class="text-[10px] sm:text-xs px-2 py-0.5 rounded-full pill-amber font-semibold inline-flex items-center gap-1.5">
+            <span id="sync-status-dot" class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+            <span id="sync-status-text">Connecting...</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+      <div class="px-2 sm:px-3 py-1.5 rounded-xl sm:rounded-2xl badge-surface flex items-center gap-1.5 shadow-sm text-[11px] sm:text-xs">
+        <img id="active-user-avatar" src="" alt="" class="hidden w-4 h-4 sm:w-5 sm:h-5 rounded-full object-cover border border-emerald-400/60" />
+        <i id="active-user-fallback-icon" class="fas fa-user-check text-adaptive-cyan text-[11px] sm:text-xs"></i>
+        <span class="text-adaptive-muted font-medium hidden md:inline">Editing as:</span>
+        <span id="active-user-name" class="text-adaptive-primary font-extrabold tracking-wide max-w-[56px] sm:max-w-none truncate">Signing in...</span>
+        <span id="admin-role-badge" class="hidden text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded-full btn-solid-amber font-black uppercase tracking-wider shadow-sm">
+          <i class="fas fa-crown text-white-keep"></i> <span class="hidden sm:inline ml-0.5">Admin</span>
+        </span>
+      </div>
+
+      <button onclick="toggleTheme()" title="Switch Daylight / Glacier Dark theme" class="w-8 h-8 sm:w-auto sm:px-3 sm:py-2 rounded-xl sm:rounded-2xl badge-surface text-xs font-bold flex items-center justify-center gap-1.5 hover:border-emerald-400 shadow-sm">
+        <i id="theme-toggle-icon" class="fas fa-sun text-amber-400"></i>
+        <span id="theme-toggle-label" class="hidden sm:inline">Daylight</span>
+      </button>
+
+      <div class="hidden lg:flex px-3 py-1.5 rounded-2xl badge-surface items-center gap-2 text-xs">
+        <i class="fas fa-users text-adaptive-teal"></i>
+        <span class="font-bold">3 Explorers</span>
+        <span class="opacity-40">|</span>
+        <span class="text-adaptive-amber font-bold">Max 15,300 ft</span>
+      </div>
+
+      <button id="copy-link-btn" onclick="copyShareLink()" title="Copy tour snapshot to share with your group" class="w-8 h-8 sm:w-auto sm:px-3 sm:py-2 rounded-xl sm:rounded-2xl btn-solid-teal text-xs font-bold flex items-center justify-center gap-1.5 shadow-sm">
+        <i class="fas fa-share-alt text-white-keep"></i>
+        <span id="copy-link-label" class="hidden sm:inline">Share</span>
+      </button>
+
+      <button id="google-auth-btn" onclick="handleGoogleAuthClick()" title="Sign out of your account" class="w-8 h-8 sm:w-auto sm:px-3 sm:py-2 rounded-xl sm:rounded-2xl badge-surface text-xs font-bold flex items-center justify-center gap-1.5 hover:border-rose-400 shadow-sm">
+        <i id="google-auth-icon" class="fas fa-sign-out-alt text-rose-400"></i>
+        <span id="google-auth-label" class="hidden sm:inline">Sign out</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="portal-main" class="hidden max-w-7xl mx-auto px-2 sm:px-3 mt-2.5 sm:mt-5 space-y-3.5 sm:space-y-6 ios-view-enter">
+
+    <!-- HERO BANNER: SCENIC SLIDESHOW & INTERACTIVE HIMALAYAN ALTITUDE PROFILE -->
+    <section id="hero-banner" onclick="handleHeroBannerTap(event)" class="hero-slideshow min-h-[265px] sm:min-h-[380px] flex flex-col justify-between cursor-pointer select-none scroll-mt-4">
+      <div id="hero-slides-container"></div>
+      <div class="hero-overlay"></div>
+
+      <!-- MODE A: SCENIC SLIDESHOW & LIVE COUNTDOWN -->
+      <div id="hero-slideshow-mode" class="hero-mode-layer hero-mode-visible relative z-10 p-3 sm:p-8 flex-1 flex flex-col justify-between min-h-[265px] sm:min-h-[380px]">
+        <!-- Top Status Pills -->
+        <div class="flex items-center justify-between gap-1.5">
+          <span class="hero-pill-bar px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-extrabold inline-flex items-center gap-1.5 shadow min-w-0">
+            <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-400 animate-ping flex-shrink-0"></span>
+            <span id="hero-live-badge-text" class="truncate">Live Countdown</span>
+          </span>
+
+          <button type="button" onclick="event.stopPropagation(); toggleHeroAltitudeMode(true)" class="hero-nav-btn px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-extrabold inline-flex items-center gap-1.5 hover:border-emerald-400 shadow flex-shrink-0">
+            <i class="fas fa-chart-area text-adaptive-teal"></i>
+            <span>Altitude Map</span>
+          </button>
+        </div>
+
+        <!-- Center Title & Live Countdown Tiles -->
+        <div class="my-auto py-2.5 sm:py-5 text-center space-y-2.5 sm:space-y-4">
+          <div class="space-y-1">
+            <h2 class="hero-title text-lg sm:text-4xl md:text-5xl font-black tracking-wider heading-font leading-tight">
+              HIMALAYAN EXPEDITION 2026
+            </h2>
+            <p id="hero-subtitle-pill" class="hero-pill-bar inline-block px-2.5 sm:px-4 py-1 rounded-full text-[10px] sm:text-sm font-semibold max-w-full leading-snug">
+              Departure: <span class="text-adaptive-teal font-extrabold">29 Nov 2026, 10:15 pm (Darjeeling Mail)</span>
+            </p>
+          </div>
+
+          <div id="countdown-grid" class="grid grid-cols-4 gap-1.5 sm:gap-4 max-w-xl mx-auto">
+            <div class="countdown-tile p-1.5 sm:p-4 rounded-xl sm:rounded-2xl">
+              <div id="cd-days" class="cd-number text-base sm:text-4xl font-black tracking-tight">00</div>
+              <div class="cd-label text-[8px] sm:text-xs uppercase tracking-widest font-bold mt-0.5">Days</div>
+            </div>
+            <div class="countdown-tile p-1.5 sm:p-4 rounded-xl sm:rounded-2xl">
+              <div id="cd-hours" class="cd-number text-base sm:text-4xl font-black tracking-tight">00</div>
+              <div class="cd-label text-[8px] sm:text-xs uppercase tracking-widest font-bold mt-0.5">Hours</div>
+            </div>
+            <div class="countdown-tile p-1.5 sm:p-4 rounded-xl sm:rounded-2xl">
+              <div id="cd-mins" class="cd-number text-base sm:text-4xl font-black tracking-tight">00</div>
+              <div class="cd-label text-[8px] sm:text-xs uppercase tracking-widest font-bold mt-0.5">Mins</div>
+            </div>
+            <div class="countdown-tile p-1.5 sm:p-4 rounded-xl sm:rounded-2xl border-amber-400/50">
+              <div id="cd-secs" class="cd-sec-number text-base sm:text-4xl font-black tracking-tight">00</div>
+              <div class="cd-sec-label text-[8px] sm:text-xs uppercase tracking-widest font-bold mt-0.5">Secs</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Slideshow Caption & Controls -->
+        <div class="hero-divider pt-2 sm:pt-3 flex items-center justify-between gap-2">
+          <div class="flex items-center gap-1.5 sm:gap-2 min-w-0 flex-1">
+            <span id="slide-stop-tag" class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg sm:rounded-xl btn-solid-teal text-[9px] sm:text-[11px] font-black uppercase tracking-wider whitespace-nowrap flex-shrink-0">
+              Stop 01 / 06
+            </span>
+            <div class="min-w-0">
+              <div id="slide-caption-title" class="text-[11px] sm:text-sm font-extrabold text-white-keep truncate">
+                Nov 29: Sealdah to NJP (12343 Darjeeling Mail)
+              </div>
+              <div id="slide-altitude-text" class="text-[9px] sm:text-[11px] text-emerald-300 font-bold truncate">
+                374 ft • Himalayan Gateway
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+            <div id="slide-dots" class="hidden sm:flex items-center gap-1.5 mr-1"></div>
+            <button type="button" onclick="event.stopPropagation(); prevSlide()" aria-label="Previous slide" class="hero-nav-btn w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-[11px] sm:text-xs hover:border-emerald-400">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button type="button" onclick="event.stopPropagation(); nextSlide()" aria-label="Next slide" class="hero-nav-btn w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-[11px] sm:text-xs hover:border-emerald-400">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODE B: INTERACTIVE HIMALAYAN ALTITUDE & ELEVATION MAP -->
+      <div id="hero-altitude-mode" class="hero-mode-layer hero-mode-hidden relative z-10 p-3 sm:p-7 flex-1 flex flex-col justify-between min-h-[280px] sm:min-h-[390px]">
+        <!-- Top Bar -->
+        <div class="flex items-center justify-between gap-2">
+          <div class="flex items-center gap-1.5 min-w-0">
+            <span class="hero-pill-bar px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs font-extrabold inline-flex items-center gap-1.5 whitespace-nowrap flex-shrink-0">
+              <i class="fas fa-mountain text-adaptive-teal"></i>
+              <span>Elevation Profile</span>
+            </span>
+            <span id="alt-progress-label" class="hero-pill-bar px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs font-extrabold truncate">
+              Starts Nov 29 • Max 15,300 ft
+            </span>
+          </div>
+
+          <button type="button" onclick="event.stopPropagation(); toggleHeroAltitudeMode(false)" class="hero-nav-btn px-3 sm:px-3.5 py-1.5 rounded-full text-[11px] sm:text-xs font-extrabold inline-flex items-center gap-1.5 hover:border-emerald-400 shadow whitespace-nowrap flex-shrink-0">
+            <i class="fas fa-images text-adaptive-cyan"></i>
+            <span>Slideshow</span>
+          </button>
+        </div>
+
+        <!-- SVG Elevation Curve (Swipeable on Narrow Screens) -->
+        <div class="w-full my-auto py-1.5 overflow-x-auto custom-scroll" onclick="event.stopPropagation()">
+          <svg viewBox="0 0 840 205" class="w-full min-w-[580px] h-40 sm:h-52 overflow-visible">
+            <defs>
+              <linearGradient id="altAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#34d399" stop-opacity="0.45" />
+                <stop offset="65%" stop-color="#60a5fa" stop-opacity="0.16" />
+                <stop offset="100%" stop-color="#070d19" stop-opacity="0.0" />
+              </linearGradient>
+              <linearGradient id="altLineGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#34d399" />
+                <stop offset="68%" stop-color="#fbbf24" />
+                <stop offset="100%" stop-color="#60a5fa" />
+              </linearGradient>
+            </defs>
+
+            <line x1="40" y1="26" x2="800" y2="26" stroke="rgba(251,191,36,0.22)" stroke-dasharray="4 4" />
+            <text x="34" y="29" text-anchor="end" fill="#fbbf24" font-size="9" font-weight="800">15k ft</text>
+
+            <line x1="40" y1="89" x2="800" y2="89" stroke="rgba(148,163,184,0.18)" stroke-dasharray="4 4" />
+            <text x="34" y="92" text-anchor="end" fill="#94a3b8" font-size="9" font-weight="700">8.6k ft</text>
+
+            <line x1="40" y1="120" x2="800" y2="120" stroke="rgba(148,163,184,0.18)" stroke-dasharray="4 4" />
+            <text x="34" y="123" text-anchor="end" fill="#94a3b8" font-size="9" font-weight="700">5.4k ft</text>
+
+            <line x1="40" y1="176" x2="800" y2="176" stroke="rgba(148,163,184,0.28)" />
+
+            <path id="alt-area-path" fill="url(#altAreaGrad)" />
+            <path id="alt-base-path" fill="none" stroke="rgba(148,163,184,0.38)" stroke-width="3" stroke-dasharray="6 5" stroke-linecap="round" />
+            <path id="alt-progress-path" fill="none" stroke="url(#altLineGrad)" stroke-width="4.5" stroke-linecap="round" />
+
+            <g id="alt-nodes-layer"></g>
+          </svg>
+        </div>
+
+        <!-- Bottom Selected Altitude Inspector -->
+        <div class="flex items-stretch justify-between gap-2" onclick="event.stopPropagation()">
+          <div id="alt-detail-card" class="hero-pill-bar flex-1 px-3 sm:px-4 py-2 rounded-xl sm:rounded-2xl flex items-center justify-between gap-2 shadow-sm min-w-0">
+            <div class="flex items-center gap-2 min-w-0">
+              <span id="alt-detail-badge" class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg sm:rounded-xl btn-solid-amber text-[11px] sm:text-xs font-black whitespace-nowrap flex-shrink-0">15,300 ft</span>
+              <div class="min-w-0">
+                <div id="alt-detail-title" class="text-[11px] sm:text-sm font-extrabold truncate">Zero Point (Yumesamdong) • Dec 02</div>
+                <div id="alt-detail-desc" class="text-[10px] sm:text-[11px] opacity-85 truncate">Tap any peak above to inspect elevation</div>
+              </div>
+            </div>
+            <span id="alt-detail-status" class="text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full pill-sky font-extrabold whitespace-nowrap flex-shrink-0">
+              🏔️ Peak
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONFIRMED IRCTC TRAIN BOARDING PASSES (ONWARD & RETURN) -->
+    <section id="tickets-section" class="glass-card p-3.5 sm:p-6 space-y-3.5 sm:space-y-4 ios-view-enter scroll-mt-20">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl btn-solid-gradient flex-shrink-0 flex items-center justify-center shadow-sm">
+            <i class="fas fa-ticket-alt text-sm text-white-keep"></i>
+          </div>
+          <div>
+            <h2 class="text-sm sm:text-lg font-black tracking-wide text-adaptive-primary heading-font">
+              CONFIRMED IRCTC BOARDING PASSES
+            </h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:inline-flex p-1 rounded-2xl badge-surface text-xs gap-1 w-full sm:w-auto">
+          <button id="vault-tab-onward" onclick="switchPassLeg('onward')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm text-center">
+            🚂 Onward (29 Nov)
+          </button>
+          <button id="vault-tab-return" onclick="switchPassLeg('return')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center">
+            🚄 Return (04 Dec)
+          </button>
+        </div>
+      </div>
+
+      <!-- DIGITAL TRAIN BOARDING PASS -->
+      <div class="boarding-pass-card p-3.5 sm:p-6 flex flex-col justify-between space-y-3.5 sm:space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+            <span class="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg btn-solid-amber text-[9px] sm:text-[10px] font-black uppercase tracking-widest">
+              IRCTC ERS • CNF
+            </span>
+            <span id="pass-train-no" class="text-xs sm:text-sm font-extrabold text-adaptive-teal">12343 / DARJEELING MAIL</span>
+          </div>
+          <span id="pass-date-badge" class="text-[11px] sm:text-xs font-extrabold px-2.5 sm:px-3 py-1 rounded-full pill-sky">
+            29-Nov-2026 • Dep 22:15
+          </span>
+        </div>
+
+        <!-- Station Route Header -->
+        <div class="grid grid-cols-3 items-center gap-1.5 sm:gap-2 py-0.5">
+          <div class="min-w-0">
+            <div id="pass-from-code" class="text-xl sm:text-4xl font-black tracking-wider text-adaptive-primary heading-font">SDAH</div>
+            <div id="pass-from-name" class="text-[10px] sm:text-xs font-bold text-adaptive-muted leading-snug">SEALDAH • Dep 22:15 (29-Nov)</div>
+          </div>
+          <div class="flex flex-col items-center justify-center text-center">
+            <span id="pass-duration" class="text-[9px] sm:text-xs font-extrabold text-adaptive-amber uppercase tracking-wider mb-1">567 KM • 9h 35m</span>
+            <div class="w-full flex items-center gap-1 text-adaptive-teal">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0"></span>
+              <div class="flex-1 border-t-2 border-dashed border-emerald-400/60"></div>
+              <i class="fas fa-train text-xs sm:text-sm"></i>
+              <div class="flex-1 border-t-2 border-dashed border-emerald-400/60"></div>
+              <span class="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0"></span>
+            </div>
+            <span class="text-[9px] sm:text-xs font-bold text-adaptive-teal mt-1">3AC • All 3 CNF</span>
+          </div>
+          <div class="text-right min-w-0">
+            <div id="pass-to-code" class="text-xl sm:text-4xl font-black tracking-wider text-adaptive-primary heading-font">NJP</div>
+            <div id="pass-to-name" class="text-[10px] sm:text-xs font-bold text-adaptive-muted leading-snug">NEW JALPAIGURI JN. • Arr 07:50 (30-Nov)</div>
+          </div>
+        </div>
+
+        <!-- PNR / Class & Coach / Quota & Booking Date -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-2.5">
+          <div class="glass-subcard p-2.5 sm:p-3 rounded-xl">
+            <div class="text-[9px] font-extrabold uppercase tracking-wider text-adaptive-muted">PNR Number</div>
+            <div id="pass-pnr-val" class="mt-0.5 text-sm sm:text-base font-black text-adaptive-amber tracking-wider">5000189137</div>
+          </div>
+          <div class="glass-subcard p-2.5 sm:p-3 rounded-xl">
+            <div class="text-[9px] font-extrabold uppercase tracking-wider text-adaptive-muted">Class & Coach</div>
+            <div id="pass-coach-val" class="mt-0.5 text-xs sm:text-base font-black text-adaptive-primary">THIRD AC (3A) • Coach B1</div>
+          </div>
+          <div class="col-span-2 sm:col-span-1 glass-subcard p-2.5 sm:p-3 rounded-xl">
+            <div class="text-[9px] font-extrabold uppercase tracking-wider text-adaptive-muted">Quota & Booking Date</div>
+            <div id="pass-quota-val" class="mt-0.5 text-xs sm:text-sm font-black text-adaptive-teal">GENERAL (GN) • 30-Sept-2026</div>
+          </div>
+        </div>
+
+        <!-- Confirmed Passenger & Berth Roster -->
+        <div id="pass-passengers-grid" class="grid grid-cols-1 md:grid-cols-3 gap-2.5 sm:gap-3"></div>
+
+        <!-- Perforated Barcode Stub -->
+        <div class="pass-perforation pt-3 flex items-center justify-between gap-3">
+          <div class="flex-1 barcode-bars text-adaptive-primary"></div>
+          <button onclick="copyBoardingPassSummary()" class="mobile-touch-btn px-3 sm:px-3.5 py-2 rounded-xl btn-solid-sky text-xs font-extrabold shadow-sm whitespace-nowrap flex items-center gap-1.5">
+            <i class="fas fa-copy text-white-keep"></i>
+            <span id="copy-pass-label">Copy Ticket</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN 2-COLUMN DASHBOARD: ITINERARY + EXPENSE LEDGER -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 items-start">
+
+      <!-- LEFT COLUMN: 7-DAY EXPEDITION ITINERARY -->
+      <section id="itinerary-section" class="lg:col-span-5 glass-card p-3.5 sm:p-6 space-y-3.5 sm:space-y-4 scroll-mt-20">
+        <div class="flex items-center justify-between gap-2">
+          <div>
+            <h2 class="text-sm sm:text-lg font-black tracking-wide text-adaptive-primary heading-font flex items-center gap-2">
+              <i class="fas fa-route text-adaptive-teal"></i>
+              <span>7-DAY ITINERARY</span>
+            </h2>
+          </div>
+          <span id="itinerary-progress-badge" class="text-[11px] sm:text-xs px-2.5 sm:px-3 py-1 rounded-full pill-teal font-extrabold whitespace-nowrap">
+            0/7 Days Done
+          </span>
+        </div>
+
+        <div id="itinerary-container" class="timeline-line space-y-2.5 sm:space-y-3"></div>
+      </section>
+
+      <!-- RIGHT COLUMN: 3-PERSON BUDGET & EXPENSE LEDGER -->
+      <section id="expenses-section" class="lg:col-span-7 glass-card p-3.5 sm:p-6 space-y-4 sm:space-y-5 scroll-mt-20">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+          <div>
+            <h2 class="text-sm sm:text-lg font-black tracking-wide text-adaptive-primary heading-font flex items-center gap-2">
+              <i class="fas fa-wallet text-adaptive-cyan"></i>
+              <span>EXPENSE TRACKER</span>
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-2 sm:inline-flex p-1 rounded-2xl badge-surface text-xs gap-1 w-full sm:w-auto">
+            <button id="view-per-head" onclick="setBudgetView('per_head')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-sky shadow text-center">
+              Per Person (1/3)
+            </button>
+            <button id="view-group-total" onclick="setBudgetView('group_total')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center">
+              Group Total (3 Pax)
+            </button>
+          </div>
+        </div>
+
+        <!-- 3-CARD FINANCIAL SUMMARY -->
+        <div class="grid grid-cols-3 gap-2 sm:gap-3">
+          <div class="glass-subcard p-2.5 sm:p-3.5 rounded-xl sm:rounded-2xl">
+            <div class="flex items-center justify-between text-[9px] sm:text-[11px] font-bold text-adaptive-muted">
+              <span>BUDGET</span>
+              <span class="view-label hidden sm:inline text-[9px] px-1.5 py-0.5 rounded pill-sky font-extrabold">PER PERSON</span>
+            </div>
+            <div id="stat-target-budget" class="text-base sm:text-2xl font-black text-adaptive-primary mt-1 truncate">₹0</div>
+          </div>
+
+          <div class="glass-subcard p-2.5 sm:p-3.5 rounded-xl sm:rounded-2xl border-emerald-500/30">
+            <div class="flex items-center justify-between text-[9px] sm:text-[11px] font-bold text-adaptive-teal">
+              <span>PAID</span>
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div id="stat-amount-paid" class="text-base sm:text-2xl font-black text-adaptive-teal mt-1 truncate">₹0</div>
+          </div>
+
+          <div class="glass-subcard p-2.5 sm:p-3.5 rounded-xl sm:rounded-2xl border-amber-500/30">
+            <div class="flex items-center justify-between text-[9px] sm:text-[11px] font-bold text-adaptive-amber">
+              <span>DUE</span>
+              <i class="fas fa-hourglass-half"></i>
+            </div>
+            <div id="stat-pending-balance" class="text-base sm:text-2xl font-black text-adaptive-amber mt-1 truncate">₹0</div>
+          </div>
+        </div>
+
+        <!-- PAYMENT PROGRESS BAR & CATEGORY BREAKDOWN -->
+        <div class="glass-subcard p-3 sm:p-4 rounded-2xl space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-1.5">
+            <div class="flex items-center gap-1.5 sm:gap-2">
+              <span class="text-[11px] sm:text-xs font-extrabold text-adaptive-primary uppercase tracking-wider">
+                <i class="fas fa-chart-line text-adaptive-teal mr-1"></i> Settlement
+              </span>
+              <span id="progress-ratio-pill" class="text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full pill-sky font-extrabold">
+                ₹0 / ₹0
+              </span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span id="progress-milestone-tag" class="text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-amber font-extrabold uppercase tracking-wider">
+                Starting Out
+              </span>
+              <span id="progress-percent" class="text-xs sm:text-sm font-black text-adaptive-teal">0%</span>
+            </div>
+          </div>
+
+          <!-- Interactive Milestone Progress Track -->
+          <div class="relative pt-1 pb-2">
+            <div onclick="cycleExpenseFilter()" title="Tap to filter Paid / Pending expenses" class="relative w-full h-4 rounded-full bg-slate-900/50 overflow-hidden border border-indigo-400/30 p-0.5 cursor-pointer shadow-inner">
+              <div id="progress-bar-fill" style="width: 0%; background: linear-gradient(90deg, #059669 0%, #0284c7 52%, #6366f1 100%);" class="relative h-full rounded-full transition-all duration-500 ease-out overflow-hidden progress-shimmer"></div>
+              <span class="absolute top-0 bottom-0 left-1/4 w-px bg-white/25 pointer-events-none"></span>
+              <span class="absolute top-0 bottom-0 left-2/4 w-px bg-white/25 pointer-events-none"></span>
+              <span class="absolute top-0 bottom-0 left-3/4 w-px bg-white/25 pointer-events-none"></span>
+            </div>
+            <div class="flex justify-between text-[9px] sm:text-[10px] font-bold text-adaptive-muted mt-1 px-0.5 select-none">
+              <span id="ms-0">0%</span>
+              <span id="ms-25">25%</span>
+              <span id="ms-50">50% Halfway</span>
+              <span id="ms-75">75%</span>
+              <span id="ms-100">100%</span>
+            </div>
+          </div>
+
+          <!-- Interactive Filter Chips & Detailed Breakdown -->
+          <div class="flex flex-wrap items-center justify-between gap-2 pt-1.5 border-t border-slate-500/20 text-[11px]">
+            <div class="inline-flex items-center gap-1.5">
+              <button id="filter-exp-all" onclick="setExpenseFilter('all')" class="px-2.5 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm">
+                All (<span id="count-exp-all">0</span>)
+              </button>
+              <button id="filter-exp-paid" onclick="setExpenseFilter('paid')" class="px-2.5 py-1.5 rounded-xl font-bold badge-surface hover:border-emerald-400">
+                ✓ Paid (<span id="count-exp-paid">0</span>)
+              </button>
+              <button id="filter-exp-pending" onclick="setExpenseFilter('pending')" class="px-2.5 py-1.5 rounded-xl font-bold badge-surface hover:border-amber-400">
+                ⏳ Due (<span id="count-exp-pending">0</span>)
+              </button>
+            </div>
+            <span id="progress-detail-note" class="text-adaptive-muted font-semibold">
+              No expenses logged yet
+            </span>
+          </div>
+
+          <div class="space-y-1.5 pt-1">
+            <div class="flex items-center justify-between text-[10px] font-extrabold uppercase tracking-wider text-adaptive-muted">
+              <span>Category Allocation</span>
+            </div>
+            <div id="category-bar" class="w-full h-2.5 rounded-full bg-slate-800/30 overflow-hidden flex gap-0.5"></div>
+            <div id="category-legend" class="flex flex-wrap gap-1.5 text-[10px] sm:text-[11px]"></div>
+          </div>
+        </div>
+
+        <!-- ADD NEW EXPENSE FORM -->
+        <div class="glass-subcard p-3 sm:p-3.5 rounded-2xl space-y-2.5">
+          <div class="flex items-center justify-between text-[11px] font-extrabold text-adaptive-secondary">
+            <span><i class="fas fa-plus-circle text-adaptive-teal mr-1"></i> Add New Expenses</span>
+            <span>As <strong id="form-active-user-label" class="text-adaptive-cyan">Explorer</strong></span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-2">
+            <input id="new-title" type="text" placeholder="Expense item (e.g., Zero Point Cab)" onkeydown="if(event.key==='Enter') addCustomExpense()" class="sm:col-span-5 px-3 py-2 text-sm sm:text-xs font-semibold glass-input rounded-xl">
+            <div class="grid grid-cols-2 sm:contents gap-2">
+              <select id="new-category" class="sm:col-span-3 px-2.5 py-2 text-sm sm:text-xs font-bold glass-input rounded-xl">
+                <option value="Package/Stay">Package/Stay</option>
+                <option value="Transport">Transport</option>
+                <option value="Permits">Permits</option>
+                <option value="Food">Food</option>
+                <option value="Medical/Oxygen">Medical/Oxygen</option>
+                <option value="Misc">Misc</option>
+              </select>
+              <input id="new-amount" type="number" inputmode="decimal" placeholder="₹ Amount" onkeydown="if(event.key==='Enter') addCustomExpense()" class="sm:col-span-2 px-3 py-2 text-sm sm:text-xs font-extrabold glass-input rounded-xl">
+            </div>
+            <button onclick="addCustomExpense()" class="mobile-touch-btn sm:col-span-2 py-2.5 sm:py-2 px-3 rounded-xl btn-solid-gradient text-xs font-extrabold shadow flex items-center justify-center gap-1.5">
+              <i class="fas fa-plus text-white-keep"></i>
+              <span>Add Expense</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- VIEW MODE SWITCHER (CARDS vs NOTEBOOK SHEET) & ADMIN CONTROLS -->
+        <div class="flex flex-wrap items-center justify-between gap-2 pt-0.5">
+          <div class="inline-flex p-1 rounded-2xl badge-surface text-xs gap-1">
+            <button id="tab-display-cards" onclick="setExpenseDisplayMode('cards')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm flex items-center gap-1.5">
+              <i class="fas fa-th-large"></i>
+              <span>Cards</span>
+            </button>
+            <button id="tab-display-sheet" onclick="setExpenseDisplayMode('sheet')" class="mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary flex items-center gap-1.5">
+              <i class="fas fa-table"></i>
+              <span>Notebook Sheet</span>
+            </button>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span id="item-count-badge" class="text-xs px-2.5 py-1 rounded-full badge-surface font-bold">0 items</span>
+            <button id="admin-clear-all-btn" onclick="clearAllExpenses()" class="hidden text-xs px-2.5 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white-keep font-extrabold shadow-sm">
+              <i class="fas fa-trash mr-1"></i> Clear All
+            </button>
+          </div>
+        </div>
+
+        <!-- VIEW A: CARDS LIST -->
+        <div id="budget-cards-view" class="space-y-2.5 ios-view-enter"></div>
+
+        <!-- VIEW B: NOTEBOOK / SPREADSHEET LEDGER -->
+        <div id="budget-sheet-view" class="hidden notebook-sheet-wrapper ios-view-enter">
+          <div class="px-3 sm:px-3.5 py-2.5 border-b border-slate-500/20 flex items-center justify-between gap-2" style="background: var(--sheet-header);">
+            <div class="flex items-center gap-1.5 text-xs font-extrabold text-adaptive-secondary min-w-0">
+              <i class="fas fa-book-open text-adaptive-teal flex-shrink-0"></i>
+              <span class="truncate">Accounting Ledger</span>
+            </div>
+            <button onclick="exportLedgerPDF()" class="mobile-touch-btn px-3 py-1.5 rounded-xl btn-solid-gradient text-xs font-extrabold shadow-sm flex items-center gap-1.5 whitespace-nowrap flex-shrink-0">
+              <i class="fas fa-file-pdf text-white-keep"></i>
+              <span>Export PDF</span>
+            </button>
+          </div>
+          <div class="overflow-x-auto custom-scroll">
+            <table class="notebook-table">
+              <thead>
+                <tr>
+                  <th class="notebook-margin-col w-9">#</th>
+                  <th class="w-11 text-center">Paid</th>
+                  <th class="text-left">Expense Item</th>
+                  <th class="text-left">Category</th>
+                  <th class="text-left">Logged By</th>
+                  <th class="text-right">Amount</th>
+                  <th class="w-10 text-center">Del</th>
+                </tr>
+              </thead>
+              <tbody id="budget-sheet-tbody"></tbody>
+              <tfoot id="budget-sheet-tfoot"></tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- MOBILE FLOATING QUICK-JUMP BOTTOM DOCK (THUMB-ZONE NAVIGATION) -->
+  <nav id="mobile-bottom-nav" aria-label="Quick Mobile Navigation" class="hidden lg:hidden mobile-bottom-dock px-2 py-1.5 grid grid-cols-4 gap-1 text-center">
+    <button onclick="scrollToSection('hero-banner')" class="py-1.5 rounded-xl flex flex-col items-center justify-center gap-0.5 text-adaptive-secondary hover:text-adaptive-teal active:bg-emerald-500/15">
+      <i class="fas fa-mountain text-sm text-adaptive-teal"></i>
+      <span class="text-[10px] font-extrabold tracking-wide">Summit</span>
+    </button>
+    <button onclick="scrollToSection('tickets-section')" class="py-1.5 rounded-xl flex flex-col items-center justify-center gap-0.5 text-adaptive-secondary hover:text-adaptive-amber active:bg-amber-500/15">
+      <i class="fas fa-ticket-alt text-sm text-adaptive-amber"></i>
+      <span class="text-[10px] font-extrabold tracking-wide">Tickets</span>
+    </button>
+    <button onclick="scrollToSection('itinerary-section')" class="py-1.5 rounded-xl flex flex-col items-center justify-center gap-0.5 text-adaptive-secondary hover:text-adaptive-cyan active:bg-blue-500/15">
+      <i class="fas fa-route text-sm text-adaptive-cyan"></i>
+      <span class="text-[10px] font-extrabold tracking-wide">7-Day Plan</span>
+    </button>
+    <button onclick="scrollToSection('expenses-section')" class="py-1.5 rounded-xl flex flex-col items-center justify-center gap-0.5 text-adaptive-secondary hover:text-adaptive-teal active:bg-emerald-500/15">
+      <i class="fas fa-wallet text-sm text-adaptive-teal"></i>
+      <span class="text-[10px] font-extrabold tracking-wide">Expenses</span>
+    </button>
+  </nav>
+
+  <!-- FIREBASE & PORTAL APPLICATION SCRIPT -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+    import {
+      getAuth,
+      GoogleAuthProvider,
+      signInWithPopup,
+      signInWithEmailAndPassword,
+      createUserWithEmailAndPassword,
+      updateProfile,
+      sendPasswordResetEmail,
+      signInWithCustomToken,
+      onAuthStateChanged,
+      signOut
+    } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+    import {
+      getFirestore,
+      doc,
+      setDoc,
+      onSnapshot
+    } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+
+    // YOUR CONNECTED FIREBASE CONFIG
+    const MY_FIREBASE_CONFIG = {
+      apiKey: "AIzaSyAKroCnFu0qKYwX2t-smeRDVqdLuoHtCYc",
+      authDomain: "north-sikkim-2026.firebaseapp.com",
+      projectId: "north-sikkim-2026",
+      storageBucket: "north-sikkim-2026.firebasestorage.app",
+      messagingSenderId: "135083442190",
+      appId: "1:135083442190:web:3d77941168bcf0f2abbc5f"
+    };
+
+    const ADMIN_EMAIL_OVERRIDE = "";
+
+    window.scrollToSection = function scrollToSection(id) {
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
+
+    // HERO SLIDESHOW & ALTITUDE TRACKER STATE
+    let currentSlideIdx = 0;
+    let slideTimer = null;
+    let isAltitudeModeOpen = false;
+    let selectedAltitudeNodeIdx = 5;
+    let simulatedTourDateISO = null;
+
+    function getEffectiveNowMs() {
+      return simulatedTourDateISO ? new Date(simulatedTourDateISO).getTime() : Date.now();
+    }
+
+    // ALTITUDE WAYPOINTS (Sealdah -> Zero Point -> Howrah)
+    const ALTITUDE_WAYPOINTS = [
+      { id: 'w1', date: 'Nov 29', name: 'Sealdah', fullTitle: 'Sealdah Station (Departure)', feet: 30, labelFt: '30 ft', x: 65, y: 169, desc: 'Board 12343 Darjeeling Mail at 10:15 PM', startMs: new Date('2026-11-29T22:15:00+05:30').getTime() },
+      { id: 'w2', date: 'Nov 30', name: 'NJP', fullTitle: 'New Jalpaiguri (NJP)', feet: 374, labelFt: '374 ft', x: 165, y: 165, desc: 'Arrive 07:50 AM • Drive via Singtam & Rangpo', startMs: new Date('2026-11-30T07:50:00+05:30').getTime() },
+      { id: 'w3', date: 'Nov 30', name: 'Gangtok', fullTitle: 'Gangtok & M.G. Marg', feet: 5410, labelFt: '5,410 ft', x: 270, y: 120, desc: 'Check in, lunch & evening stroll at M.G. Marg', startMs: new Date('2026-11-30T14:00:00+05:30').getTime() },
+      { id: 'w4', date: 'Dec 01', name: 'Falls', fullTitle: 'Butterfly & Naga Falls', feet: 6850, labelFt: '6,850 ft', x: 375, y: 106, desc: 'Scenic waterfalls & Chungthang View Point en route', startMs: new Date('2026-12-01T11:00:00+05:30').getTime() },
+      { id: 'w5', date: 'Dec 01', name: 'Lachung', fullTitle: 'Lachung Alpine Village', feet: 8610, labelFt: '8,610 ft', x: 475, y: 89, desc: 'Overnight mountain stay amidst snow-capped peaks', startMs: new Date('2026-12-01T17:00:00+05:30').getTime() },
+      { id: 'w6', date: 'Dec 02', name: 'Zero Point', fullTitle: 'Yumthang & Zero Point', feet: 15300, labelFt: '15,300 ft', x: 585, y: 26, desc: 'Highest snowline point of the tour • Snowline & Yumthang Valley', startMs: new Date('2026-12-02T09:00:00+05:30').getTime() },
+      { id: 'w7', date: 'Dec 03', name: 'Gangtok', fullTitle: 'Return to Gangtok', feet: 5410, labelFt: '5,410 ft', x: 685, y: 120, desc: 'Post-breakfast descent & stay at Gangtok', startMs: new Date('2026-12-03T13:00:00+05:30').getTime() },
+      { id: 'w8', date: 'Dec 04–05', name: 'Howrah', fullTitle: 'NJP → Howrah (27576 Vande Bharat SL)', feet: 30, labelFt: '30 ft', x: 775, y: 169, desc: 'Dec 04 Dep 23:40 NJP • Dec 05 Arr 08:15 Howrah', startMs: new Date('2026-12-04T23:40:00+05:30').getTime() }
+    ];
+
+    window.handleHeroBannerTap = function handleHeroBannerTap(e) {
+      if (e && e.target && e.target.closest('button')) return;
+      window.toggleHeroAltitudeMode(!isAltitudeModeOpen);
+    };
+
+    window.toggleHeroAltitudeMode = function toggleHeroAltitudeMode(openAltitude) {
+      isAltitudeModeOpen = Boolean(openAltitude);
+      const slideLayer = document.getElementById('hero-slideshow-mode');
+      const altLayer = document.getElementById('hero-altitude-mode');
+      if (!slideLayer || !altLayer) return;
+
+      if (isAltitudeModeOpen) {
+        slideLayer.classList.remove('hero-mode-visible');
+        slideLayer.classList.add('hero-mode-hidden');
+        altLayer.classList.remove('hero-mode-hidden');
+        altLayer.classList.add('hero-mode-visible');
+        window.pauseSlideshow();
+        renderAltitudeTracker();
+      } else {
+        altLayer.classList.remove('hero-mode-visible');
+        altLayer.classList.add('hero-mode-hidden');
+        slideLayer.classList.remove('hero-mode-hidden');
+        slideLayer.classList.add('hero-mode-visible');
+        window.resumeSlideshow();
+      }
+    };
+
+    window.selectAltitudeWaypoint = function selectAltitudeWaypoint(idx) {
+      selectedAltitudeNodeIdx = idx;
+      renderAltitudeTracker();
+    };
+
+    function buildSmoothCurvePath(points) {
+      if (!points.length) return '';
+      let d = `M ${points[0].x} ${points[0].y}`;
+      for (let i = 0; i < points.length - 1; i++) {
+        const p0 = points[i];
+        const p1 = points[i + 1];
+        const midX = (p0.x + p1.x) / 2;
+        d += ` C ${midX} ${p0.y}, ${midX} ${p1.y}, ${p1.x} ${p1.y}`;
+      }
+      return d;
+    }
+
+    function renderAltitudeTracker() {
+      const areaPath = document.getElementById('alt-area-path');
+      const basePath = document.getElementById('alt-base-path');
+      const progPath = document.getElementById('alt-progress-path');
+      const nodesLayer = document.getElementById('alt-nodes-layer');
+      if (!areaPath || !basePath || !progPath || !nodesLayer) return;
+
+      const now = getEffectiveNowMs();
+      let activeIdx = -1;
+      ALTITUDE_WAYPOINTS.forEach((wp, i) => {
+        if (now >= wp.startMs) activeIdx = i;
+      });
+
+      const fullCurve = buildSmoothCurvePath(ALTITUDE_WAYPOINTS);
+      const first = ALTITUDE_WAYPOINTS[0];
+      const last = ALTITUDE_WAYPOINTS[ALTITUDE_WAYPOINTS.length - 1];
+      areaPath.setAttribute('d', `${fullCurve} L ${last.x} 176 L ${first.x} 176 Z`);
+      basePath.setAttribute('d', fullCurve);
+
+      if (activeIdx >= 0) {
+        const completedSlice = ALTITUDE_WAYPOINTS.slice(0, activeIdx + 1);
+        progPath.setAttribute('d', buildSmoothCurvePath(completedSlice));
+      } else {
+        progPath.setAttribute('d', '');
+      }
+
+      const pctDone = activeIdx < 0
+        ? 0
+        : Math.round(((activeIdx + 1) / ALTITUDE_WAYPOINTS.length) * 100);
+      const progLabel = document.getElementById('alt-progress-label');
+      if (progLabel) {
+        progLabel.innerText = activeIdx < 0
+          ? 'Starts Nov 29 • Max 15,300 ft'
+          : `${pctDone}% Route • ${ALTITUDE_WAYPOINTS[activeIdx].name}`;
+      }
+
+      nodesLayer.innerHTML = ALTITUDE_WAYPOINTS.map((wp, idx) => {
+        const isReached = idx <= activeIdx;
+        const isCurrent = idx === activeIdx;
+        const isSelected = idx === selectedAltitudeNodeIdx;
+        const isPeak = wp.feet === 15300;
+        const fillCol = isPeak ? '#fbbf24' : (isReached ? '#34d399' : '#60a5fa');
+        const labelY = wp.y < 50 ? wp.y + 22 : wp.y - 14;
+        const dateY = wp.y < 50 ? wp.y + 34 : wp.y - 26;
+
+        return `
+          <g class="cursor-pointer" onclick="selectAltitudeWaypoint(${idx})">
+            <circle cx="${wp.x}" cy="${wp.y}" r="18" fill="transparent" />
+            ${(isCurrent || isSelected) ? `<circle cx="${wp.x}" cy="${wp.y}" r="12" fill="none" stroke="${fillCol}" stroke-width="2" class="altitude-beacon-ring" />` : ''}
+            <circle cx="${wp.x}" cy="${wp.y}" r="${isSelected ? 8 : 6}" fill="${fillCol}" stroke="#070d19" stroke-width="2" />
+            <text x="${wp.x}" y="${dateY}" text-anchor="middle" fill="#94a3b8" font-size="9.5" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">${wp.date}</text>
+            <text x="${wp.x}" y="${labelY}" text-anchor="middle" fill="#ffffff" font-size="11.5" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">${wp.name}</text>
+            <text x="${wp.x}" y="195" text-anchor="middle" fill="${isPeak ? '#fbbf24' : '#34d399'}" font-size="10" font-weight="800" font-family="Plus Jakarta Sans, sans-serif">${wp.labelFt}</text>
+          </g>
+        `;
+      }).join('');
+
+      const sel = ALTITUDE_WAYPOINTS[selectedAltitudeNodeIdx] || ALTITUDE_WAYPOINTS[5];
+      const badgeEl = document.getElementById('alt-detail-badge');
+      const titleEl = document.getElementById('alt-detail-title');
+      const descEl = document.getElementById('alt-detail-desc');
+      const statusEl = document.getElementById('alt-detail-status');
+
+      if (badgeEl) badgeEl.innerText = sel.labelFt;
+      if (titleEl) titleEl.innerText = `${sel.fullTitle} • ${sel.date}`;
+      if (descEl) descEl.innerText = sel.desc;
+      if (statusEl) {
+        if (selectedAltitudeNodeIdx < activeIdx) {
+          statusEl.className = 'text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full pill-teal font-extrabold whitespace-nowrap flex-shrink-0';
+          statusEl.innerText = '✓ Done';
+        } else if (selectedAltitudeNodeIdx === activeIdx) {
+          statusEl.className = 'text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full pill-amber font-extrabold whitespace-nowrap flex-shrink-0';
+          statusEl.innerText = '● Live';
+        } else {
+          statusEl.className = 'text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full pill-sky font-extrabold whitespace-nowrap flex-shrink-0';
+          statusEl.innerText = sel.feet === 15300 ? '🏔️ Peak' : 'Next';
+        }
+      }
+    }
+
+    // ITINERARY HERO SLIDES
+    const HERO_SLIDES = [
+      {
+        stop: 'Stop 01 / 06',
+        caption: 'Nov 29: Sealdah to NJP (12343 Darjeeling Mail • Coach B1)',
+        altitude: '374 ft • Himalayan Gateway',
+        dayIndex: 0,
+        img: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1400&q=80'
+      },
+      {
+        stop: 'Stop 02 / 06',
+        caption: 'Nov 30: NJP to Gangtok via Singtam & Rangpo • Evening M.G. Marg',
+        altitude: '5,410 ft • Capital of Sikkim',
+        dayIndex: 1,
+        img: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1400&q=80'
+      },
+      {
+        stop: 'Stop 03 / 06',
+        caption: 'Dec 01: Gangtok to Lachung via Butterfly & Naga Falls',
+        altitude: '8,610 ft • Alpine Mountain Village',
+        dayIndex: 2,
+        img: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1400&q=80'
+      },
+      {
+        stop: 'Stop 04 / 06',
+        caption: 'Dec 02: Yumthang Valley & Zero Point Snowline Excursion',
+        altitude: '15,300 ft • Highest Tour Point',
+        dayIndex: 3,
+        img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80'
+      },
+      {
+        stop: 'Stop 05 / 06',
+        caption: 'Dec 03: Lachung to Gangtok & Evening Stay',
+        altitude: '5,410 ft • Scenic Return',
+        dayIndex: 4,
+        img: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80'
+      },
+      {
+        stop: 'Stop 06 / 06',
+        caption: 'Dec 04–05: NJP to Howrah (27576 Vande Bharat SL • Coach B7)',
+        altitude: '30 ft • Journey Complete',
+        dayIndex: 5,
+        img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80'
+      }
+    ];
+
+    window.goToSlide = function goToSlide(idx) {
+      currentSlideIdx = (idx + HERO_SLIDES.length) % HERO_SLIDES.length;
+      const slide = HERO_SLIDES[currentSlideIdx];
+
+      document.querySelectorAll('.hero-slide').forEach((el, i) => {
+        el.classList.toggle('active', i === currentSlideIdx);
+      });
+
+      document.querySelectorAll('.slide-dot-btn').forEach((btn, i) => {
+        if (i === currentSlideIdx) {
+          btn.className = 'slide-dot-btn w-6 h-2 rounded-full bg-emerald-400 transition-all duration-500';
+        } else {
+          btn.className = 'slide-dot-btn w-2 h-2 rounded-full bg-slate-400/60 hover:bg-indigo-400 transition-all duration-500';
+        }
+      });
+
+      const stopTag = document.getElementById('slide-stop-tag');
+      const capTitle = document.getElementById('slide-caption-title');
+      const altText = document.getElementById('slide-altitude-text');
+
+      if (stopTag) stopTag.innerText = slide.stop;
+      if (capTitle) capTitle.innerText = slide.caption;
+      if (altText) altText.innerText = slide.altitude;
+    };
+
+    window.nextSlide = function nextSlide() {
+      window.goToSlide(currentSlideIdx + 1);
+    };
+
+    window.prevSlide = function prevSlide() {
+      window.goToSlide(currentSlideIdx - 1);
+    };
+
+    window.pauseSlideshow = function pauseSlideshow() {
+      if (slideTimer) clearInterval(slideTimer);
+    };
+
+    window.resumeSlideshow = function resumeSlideshow() {
+      if (slideTimer) clearInterval(slideTimer);
+      slideTimer = setInterval(window.nextSlide, 5500);
+    };
+
+    function initHeroSlideshow() {
+      const container = document.getElementById('hero-slides-container');
+      const dotsContainer = document.getElementById('slide-dots');
+      if (!container || !dotsContainer) return;
+
+      container.innerHTML = HERO_SLIDES.map((s, idx) => `
+        <div class="hero-slide ${idx === 0 ? 'active' : ''}">
+          <img src="${s.img}" alt="${escapeHTML(s.caption)}" onerror="this.style.display='none'" />
+        </div>
+      `).join('');
+
+      dotsContainer.innerHTML = HERO_SLIDES.map((_, idx) => `
+        <button type="button" onclick="event.stopPropagation(); goToSlide(${idx})" aria-label="Slide ${idx + 1}" class="slide-dot-btn ${idx === 0 ? 'w-6 bg-emerald-400' : 'w-2 bg-slate-400/60'} h-2 rounded-full transition-all duration-500"></button>
+      `).join('');
+
+      window.goToSlide(0);
+      window.resumeSlideshow();
+    }
+
+    function initSnowfall() {
+      const canvas = document.getElementById('snow-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let width = canvas.width = window.innerWidth;
+      let height = canvas.height = window.innerHeight;
+
+      const flakeCount = width < 640 ? 28 : 70;
+      const flakes = Array.from({ length: flakeCount }, () => {
+        const depth = Math.random();
+        const isCrystal = depth > 0.45 && Math.random() > 0.35;
+        return {
+          x: Math.random() * width,
+          y: Math.random() * height,
+          depth,
+          isCrystal,
+          radius: isCrystal
+            ? (2.6 + depth * 3.8)
+            : (1.0 + depth * 2.6),
+          speedY: 0.35 + depth * 1.15,
+          windFactor: 0.25 + depth * 0.65,
+          swayPhase: Math.random() * Math.PI * 2,
+          swayFreq: 0.008 + Math.random() * 0.012,
+          rotation: Math.random() * Math.PI * 2,
+          rotSpeed: (Math.random() - 0.5) * 0.022,
+          opacity: isCrystal ? (0.32 + depth * 0.45) : (0.16 + depth * 0.35),
+          branchStyle: Math.floor(Math.random() * 2)
+        };
+      });
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      function drawCrystalFlake(f, snowRGB) {
+        ctx.save();
+        ctx.translate(f.x, f.y);
+        ctx.rotate(f.rotation);
+        ctx.strokeStyle = `rgba(${snowRGB}, ${f.opacity})`;
+        ctx.lineCap = 'round';
+        ctx.lineWidth = Math.max(0.65, f.radius * 0.14);
+
+        const r = f.radius;
+        for (let i = 0; i < 6; i++) {
+          ctx.rotate(Math.PI / 3);
+          ctx.beginPath();
+          ctx.moveTo(0, 0);
+          ctx.lineTo(0, -r);
+          ctx.stroke();
+
+          const b1 = r * 0.58;
+          const b1Len = r * 0.34;
+          ctx.beginPath();
+          ctx.moveTo(0, -b1);
+          ctx.lineTo(-b1Len * 0.65, -b1 - b1Len * 0.65);
+          ctx.moveTo(0, -b1);
+          ctx.lineTo(b1Len * 0.65, -b1 - b1Len * 0.65);
+          ctx.stroke();
+
+          if (f.branchStyle === 1 && r > 3.6) {
+            const b2 = r * 0.32;
+            const b2Len = r * 0.22;
+            ctx.beginPath();
+            ctx.moveTo(0, -b2);
+            ctx.lineTo(-b2Len * 0.65, -b2 - b2Len * 0.65);
+            ctx.moveTo(0, -b2);
+            ctx.lineTo(b2Len * 0.65, -b2 - b2Len * 0.65);
+            ctx.stroke();
+          }
+        }
+
+        ctx.beginPath();
+        ctx.arc(0, 0, Math.max(0.7, r * 0.14), 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${snowRGB}, ${Math.min(0.95, f.opacity + 0.2)})`;
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function drawSoftBokehFlake(f, snowRGB) {
+        const grad = ctx.createRadialGradient(f.x, f.y, 0, f.x, f.y, f.radius * 1.4);
+        grad.addColorStop(0, `rgba(${snowRGB}, ${f.opacity})`);
+        grad.addColorStop(0.55, `rgba(${snowRGB}, ${f.opacity * 0.45})`);
+        grad.addColorStop(1, `rgba(${snowRGB}, 0)`);
+
+        ctx.beginPath();
+        ctx.arc(f.x, f.y, f.radius * 1.4, 0, Math.PI * 2);
+        ctx.fillStyle = grad;
+        ctx.fill();
+      }
+
+      let globalWindTime = 0;
+
+      function animateSnow() {
+        ctx.clearRect(0, 0, width, height);
+        const snowRGB = getComputedStyle(document.body).getPropertyValue('--snow-rgb').trim() || '224, 242, 254';
+        globalWindTime += 0.005;
+        const breeze = Math.sin(globalWindTime) * 0.45;
+
+        for (const f of flakes) {
+          if (f.isCrystal) {
+            drawCrystalFlake(f, snowRGB);
+          } else {
+            drawSoftBokehFlake(f, snowRGB);
+          }
+
+          f.swayPhase += f.swayFreq;
+          f.y += f.speedY;
+          f.x += (Math.sin(f.swayPhase) * 0.45 + breeze) * f.windFactor;
+          f.rotation += f.rotSpeed;
+
+          if (f.y > height + 12) {
+            f.y = -12;
+            f.x = Math.random() * width;
+          }
+          if (f.x > width + 12) f.x = -12;
+          if (f.x < -12) f.x = width + 12;
+        }
+        requestAnimationFrame(animateSnow);
+      }
+      animateSnow();
+    }
+
+    const CATEGORY_COLORS = {
+      'Package/Stay': '#059669',
+      'Permits': '#2563eb',
+      'Food': '#d97706',
+      'Medical/Oxygen': '#e11d48',
+      'Misc': '#7c3aed',
+      'Transport': '#0d9488'
+    };
+
+    // CANONICAL CONFIRMED IRCTC E-TICKET DETAILS (IDENTICAL STRUCTURE FOR BOTH LEGS)
+    const CONFIRMED_TRAIN_PASSES = {
+      onward: {
+        trainNo: '12343 / DARJEELING MAIL',
+        dateBadge: '29-Nov-2026 • Dep 22:15',
+        fromCode: 'SDAH',
+        fromName: 'SEALDAH • Dep 22:15 (29-Nov)',
+        toCode: 'NJP',
+        toName: 'NEW JALPAIGURI JN. • Arr 07:50 (30-Nov)',
+        duration: '567 KM • 9h 35m',
+        pnr: '5000189137',
+        coach: 'THIRD AC (3A) • Coach B1',
+        quotaBooking: 'GENERAL (GN) • 30-Sept-2026',
+        passengers: [
+          { name: 'PRIYADIP SINHA', ageGender: '23 • M', berth: 'CNF / B1 / 47 / SIDE LOWER' },
+          { name: 'SRINJAY DUTTA', ageGender: '23 • M', berth: 'CNF / B1 / 43 / UPPER' },
+          { name: 'SUMAN BARMAN', ageGender: '22 • M', berth: 'CNF / B1 / 48 / SIDE UPPER' }
+        ]
+      },
+      return: {
+        trainNo: '27576 / VANDE BHARAT SL',
+        dateBadge: '04-Dec-2026 • Dep 23:40',
+        fromCode: 'NJP',
+        fromName: 'NEW JALPAIGURI JN. • Dep 23:40 (04-Dec)',
+        toCode: 'HWH',
+        toName: 'HOWRAH • Arr 08:15 (05-Dec)',
+        duration: '564 KM • 8h 35m',
+        pnr: '6710675206',
+        coach: 'THIRD AC (3A) • Coach B7',
+        quotaBooking: 'GENERAL (GN) • 05-Oct-2026',
+        passengers: [
+          { name: 'PRIYADIP SINHA', ageGender: '23 • M', berth: 'CNF / B7 / 39 / SIDE LOWER' },
+          { name: 'SRINJAY DUTTA', ageGender: '23 • M', berth: 'CNF / B7 / 35 / UPPER' },
+          { name: 'SUMAN BARMAN', ageGender: '22 • M', berth: 'CNF / B7 / 37 / MIDDLE' }
+        ]
+      }
+    };
+
+    // INITIAL DEFAULT TOUR DATA
+    const INITIAL_TRIP_DATA = {
+      theme: 'dark',
+      adminEmail: '',
+      activeUser: 'Priyadip',
+      members: ['Priyadip', 'Srinjay', 'Suman'],
+      budgetView: 'per_head',
+      expenseDisplayMode: 'cards',
+      budget: [],
+      itinerary: [
+        { id: 'i1', date: 'Nov 29', title: 'Board Train from Sealdah to NJP', desc: 'Assemble at Sealdah Railway Station. Board 12343 Darjeeling Mail departing at 22:15 (10:15 PM) in Coach B1 to New Jalpaiguri (NJP).', done: false },
+        { id: 'i2', date: 'Nov 30', title: 'NJP to Gangtok via Singtam & Rangpo', desc: 'Arrive NJP at 07:50 AM. Drive to Gangtok via Singtam road, Rangpo. Check in and lunch. Evening, visit M.G. Marg. Stay at Gangtok.', done: false },
+        { id: 'i3', date: 'Dec 01', title: 'Gangtok to Lachung via Waterfalls', desc: 'Move to Lachung via Butterfly Water Falls, Chungthang View Point, Naga Falls (if road conditions permit). Reach Lachung by evening. Check in to hotel and overnight stay at Lachung.', done: false },
+        { id: 'i4', date: 'Dec 02', title: 'Yumthang Valley & Zero Point → Lachung', desc: 'Morning drive towards Yumthang Valley. Next, you may visit Zero Point (by own cost). Next, return back to Lachung and overnight stay.', done: false },
+        { id: 'i5', date: 'Dec 03', title: 'Lachung to Gangtok', desc: 'Morning post breakfast, move towards Gangtok. Check in and rest. Stay at Gangtok.', done: false },
+        { id: 'i6', date: 'Dec 04', title: 'Gangtok to NJP & Board Vande Bharat Sleeper', desc: 'After breakfast, check out and drop to NJP. Board 27576 Vande Bharat SL departing NJP at 23:40 (11:40 PM) in Coach B7.', done: false },
+        { id: 'i7', date: 'Dec 05', title: 'Arrive Howrah Station (08:15 AM)', desc: 'Morning arrival at Howrah Railway Station (HWH) at 08:15 AM. Tour concludes with unforgettable Himalayan memories!', done: false }
+      ]
+    };
+
+    let tripData = JSON.parse(JSON.stringify(INITIAL_TRIP_DATA));
+    let expenseStatusFilter = 'all';
+    let activePassLeg = 'onward';
+
+    // CONFIRMED IRCTC BOARDING PASSES LOGIC
+    window.switchPassLeg = function switchPassLeg(leg) {
+      activePassLeg = leg;
+      const btnOn = document.getElementById('vault-tab-onward');
+      const btnRet = document.getElementById('vault-tab-return');
+      if (btnOn && btnRet) {
+        if (leg === 'onward') {
+          btnOn.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm text-center';
+          btnRet.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+        } else {
+          btnRet.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm text-center';
+          btnOn.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+        }
+      }
+      renderBoardingPass();
+    };
+
+    window.copyBoardingPassSummary = function copyBoardingPassSummary() {
+      const legData = CONFIRMED_TRAIN_PASSES[activePassLeg] || CONFIRMED_TRAIN_PASSES.onward;
+      const paxLines = legData.passengers
+        .map((p, idx) => `${idx + 1}. ${p.name} (${p.ageGender}) — ${p.berth}`)
+        .join('\n');
+      const txt = `🚂 ${legData.trainNo}\n📅 ${legData.dateBadge}\n📍 ${legData.fromCode} (${legData.fromName}) → ${legData.toCode} (${legData.toName})\n🎫 PNR: ${legData.pnr} | ${legData.coach} | ${legData.quotaBooking}\n👥 Passengers:\n${paxLines}`;
+      const label = document.getElementById('copy-pass-label');
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(txt).then(() => {
+          if (label) {
+            label.innerText = 'Copied!';
+            setTimeout(() => { label.innerText = 'Copy Ticket'; }, 2000);
+          }
+        });
+      }
+    };
+
+    function renderBoardingPass() {
+      const legData = CONFIRMED_TRAIN_PASSES[activePassLeg] || CONFIRMED_TRAIN_PASSES.onward;
+      const setElText = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
+
+      setElText('pass-train-no', legData.trainNo);
+      setElText('pass-date-badge', legData.dateBadge);
+      setElText('pass-from-code', legData.fromCode);
+      setElText('pass-from-name', legData.fromName);
+      setElText('pass-to-code', legData.toCode);
+      setElText('pass-to-name', legData.toName);
+      setElText('pass-duration', legData.duration);
+
+      setElText('pass-pnr-val', legData.pnr);
+      setElText('pass-coach-val', legData.coach);
+      setElText('pass-quota-val', legData.quotaBooking);
+
+      const paxGrid = document.getElementById('pass-passengers-grid');
+      if (paxGrid) {
+        paxGrid.innerHTML = legData.passengers.map((p, idx) => `
+          <div class="glass-subcard p-3 rounded-xl flex flex-col justify-between gap-2 min-w-0">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider text-adaptive-muted">Passenger #0${idx + 1}</span>
+              <span class="text-[10px] font-bold text-adaptive-secondary px-1.5 py-0.5 rounded-md badge-surface">${escapeHTML(p.ageGender)}</span>
+            </div>
+            <div class="text-xs sm:text-sm font-black text-adaptive-primary leading-snug break-words">${escapeHTML(p.name)}</div>
+            <div class="pt-0.5">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg pill-teal text-[10px] sm:text-[11px] font-black tracking-wide leading-tight">
+                <i class="fas fa-bed text-[9px] opacity-80"></i>
+                <span>${escapeHTML(p.berth)}</span>
+              </span>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    window.setExpenseFilter = function setExpenseFilter(filter) {
+      expenseStatusFilter = filter;
+      updateExpenseFilterButtons();
+      renderBudgetItems();
+    };
+
+    window.cycleExpenseFilter = function cycleExpenseFilter() {
+      const order = ['all', 'paid', 'pending'];
+      const next = order[(order.indexOf(expenseStatusFilter) + 1) % order.length];
+      window.setExpenseFilter(next);
+    };
+
+    function updateExpenseFilterButtons() {
+      const btnAll = document.getElementById('filter-exp-all');
+      const btnPaid = document.getElementById('filter-exp-paid');
+      const btnPending = document.getElementById('filter-exp-pending');
+      if (!btnAll || !btnPaid || !btnPending) return;
+
+      btnAll.className = expenseStatusFilter === 'all'
+        ? 'px-2.5 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm'
+        : 'px-2.5 py-1.5 rounded-xl font-bold badge-surface hover:border-emerald-400';
+
+      btnPaid.className = expenseStatusFilter === 'paid'
+        ? 'px-2.5 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm'
+        : 'px-2.5 py-1.5 rounded-xl font-bold badge-surface hover:border-emerald-400';
+
+      btnPending.className = expenseStatusFilter === 'pending'
+        ? 'px-2.5 py-1.5 rounded-xl font-extrabold btn-solid-amber shadow-sm'
+        : 'px-2.5 py-1.5 rounded-xl font-bold badge-surface hover:border-amber-400';
+    }
+
+    const savedTheme = localStorage.getItem('sikkim_pref_theme');
+    if (savedTheme === 'light' || savedTheme === 'dark') {
+      tripData.theme = savedTheme;
+    }
+    const savedDisplayMode = localStorage.getItem('sikkim_pref_display_mode');
+    if (savedDisplayMode === 'cards' || savedDisplayMode === 'sheet') {
+      tripData.expenseDisplayMode = savedDisplayMode;
+    }
+
+    function applyTheme(theme) {
+      const isLight = theme === 'light';
+      document.body.classList.toggle('light-theme', isLight);
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) metaTheme.setAttribute('content', isLight ? '#e6f4f1' : '#070d19');
+
+      const icon = document.getElementById('theme-toggle-icon');
+      const label = document.getElementById('theme-toggle-label');
+      if (icon && label) {
+        if (isLight) {
+          icon.className = 'fas fa-moon text-indigo-700';
+          label.innerText = 'Glacier Dark';
+        } else {
+          icon.className = 'fas fa-sun text-amber-400';
+          label.innerText = 'Daylight';
+        }
+      }
+    }
+
+    function updateSyncStatus(state, labelText) {
+      const badge = document.getElementById('sync-status-badge');
+      const dot = document.getElementById('sync-status-dot');
+      const dotMobile = document.getElementById('sync-status-dot-mobile');
+      const text = document.getElementById('sync-status-text');
+      if (!badge || !dot || !text) return;
+
+      text.innerText = labelText;
+      if (dotMobile) dotMobile.title = labelText;
+
+      if (state === 'live') {
+        badge.className = 'text-[10px] sm:text-xs px-2 py-0.5 rounded-full pill-teal font-semibold inline-flex items-center gap-1.5';
+        dot.className = 'w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse';
+        if (dotMobile) dotMobile.className = 'sm:hidden w-2 h-2 rounded-full bg-emerald-400 animate-pulse flex-shrink-0';
+      } else if (state === 'saving') {
+        badge.className = 'text-[10px] sm:text-xs px-2 py-0.5 rounded-full pill-sky font-semibold inline-flex items-center gap-1.5';
+        dot.className = 'w-1.5 h-1.5 rounded-full bg-blue-400 animate-ping';
+        if (dotMobile) dotMobile.className = 'sm:hidden w-2 h-2 rounded-full bg-blue-400 animate-ping flex-shrink-0';
+      } else {
+        badge.className = 'text-[10px] sm:text-xs px-2 py-0.5 rounded-full pill-amber font-semibold inline-flex items-center gap-1.5';
+        dot.className = 'w-1.5 h-1.5 rounded-full bg-amber-400';
+        if (dotMobile) dotMobile.className = 'sm:hidden w-2 h-2 rounded-full bg-amber-400 flex-shrink-0';
+      }
+    }
+
+    // FIREBASE & SIGN-IN ENGINE
+    const hasCustomFirebaseConfig = MY_FIREBASE_CONFIG.apiKey && !MY_FIREBASE_CONFIG.apiKey.includes("PASTE_");
+    const activeFirebaseConfig = hasCustomFirebaseConfig
+      ? MY_FIREBASE_CONFIG
+      : (typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null);
+
+    let app = null;
+    let auth = null;
+    let db = null;
+    let currentUser = null;
+    let sharedTripDocRef = null;
+    let unsubscribeSnapshot = null;
+
+    function isCurrentUserAdmin() {
+      if (!currentUser || !currentUser.email) return false;
+      const userEmail = currentUser.email.toLowerCase().trim();
+      if (ADMIN_EMAIL_OVERRIDE && ADMIN_EMAIL_OVERRIDE.trim()) {
+        return userEmail === ADMIN_EMAIL_OVERRIDE.toLowerCase().trim();
+      }
+      if (tripData.adminEmail) {
+        return userEmail === tripData.adminEmail.toLowerCase().trim();
+      }
+      return false;
+    }
+
+    function extractGoogleFirstName(user) {
+      if (!user) return 'Explorer';
+      if (user.displayName && user.displayName.trim()) {
+        const firstToken = user.displayName.trim().split(/\s+/)[0];
+        return firstToken.charAt(0).toUpperCase() + firstToken.slice(1);
+      }
+      if (user.email && user.email.includes('@')) {
+        const emailPrefix = user.email.split('@')[0].split(/[._-]/)[0];
+        return emailPrefix.charAt(0).toUpperCase() + emailPrefix.slice(1);
+      }
+      return 'Explorer';
+    }
+
+    function updateAuthUI(user) {
+      const gateOverlay = document.getElementById('auth-gate-overlay');
+      const headerEl = document.getElementById('portal-header');
+      const mainEl = document.getElementById('portal-main');
+      const mobileDock = document.getElementById('mobile-bottom-nav');
+      const gateStatus = document.getElementById('gate-auth-status');
+      const avatarImg = document.getElementById('active-user-avatar');
+      const fallbackIcon = document.getElementById('active-user-fallback-icon');
+
+      const isAuthenticated = Boolean(user && (!user.isAnonymous || typeof __initial_auth_token !== 'undefined'));
+
+      if (isAuthenticated && user && !user.isAnonymous) {
+        const firstName = extractGoogleFirstName(user);
+        tripData.activeUser = firstName;
+        localStorage.setItem('sikkim_pref_user', firstName);
+
+        if (!tripData.adminEmail && user.email) {
+          tripData.adminEmail = ADMIN_EMAIL_OVERRIDE.trim() || user.email.toLowerCase().trim();
+        }
+
+        if (gateOverlay) gateOverlay.classList.add('hidden');
+        if (headerEl) headerEl.classList.remove('hidden');
+        if (mainEl) mainEl.classList.remove('hidden');
+        if (mobileDock) mobileDock.classList.remove('hidden');
+
+        if (user.photoURL && avatarImg) {
+          avatarImg.src = user.photoURL;
+          avatarImg.classList.remove('hidden');
+          if (fallbackIcon) fallbackIcon.classList.add('hidden');
+        } else {
+          if (avatarImg) avatarImg.classList.add('hidden');
+          if (fallbackIcon) fallbackIcon.classList.remove('hidden');
+        }
+
+        renderActiveUserUI();
+      } else {
+        if (gateOverlay) gateOverlay.classList.remove('hidden');
+        if (headerEl) headerEl.classList.add('hidden');
+        if (mainEl) mainEl.classList.add('hidden');
+        if (mobileDock) mobileDock.classList.add('hidden');
+        if (gateStatus) gateStatus.innerText = 'Sign in with Google or Email & Password to unlock portal.';
+      }
+    }
+
+    let isEmailRegisterMode = false;
+
+    window.toggleEmailAuthMode = function toggleEmailAuthMode() {
+      isEmailRegisterMode = !isEmailRegisterMode;
+      const nameWrap = document.getElementById('email-name-wrapper');
+      const submitLabel = document.getElementById('gate-email-submit-label');
+      const toggleBtn = document.getElementById('toggle-email-mode-btn');
+      const gateStatus = document.getElementById('gate-auth-status');
+
+      if (nameWrap) nameWrap.classList.toggle('hidden', !isEmailRegisterMode);
+      if (submitLabel) submitLabel.innerText = isEmailRegisterMode ? 'Create Account & Enter' : 'Sign In with Email';
+      if (toggleBtn) toggleBtn.innerText = isEmailRegisterMode ? 'Already have an account? Sign In' : 'New explorer? Create account';
+      if (gateStatus) gateStatus.innerText = '';
+    };
+
+    window.handleEmailAuthSubmit = async function handleEmailAuthSubmit() {
+      const gateStatus = document.getElementById('gate-auth-status');
+      const submitLabel = document.getElementById('gate-email-submit-label');
+      const emailInput = document.getElementById('auth-email');
+      const passInput = document.getElementById('auth-password');
+      const nameInput = document.getElementById('auth-first-name');
+
+      if (!auth) {
+        if (gateStatus) gateStatus.innerText = 'Firebase is not configured yet.';
+        return;
+      }
+
+      const email = emailInput ? emailInput.value.trim() : '';
+      const password = passInput ? passInput.value : '';
+      const rawName = nameInput ? nameInput.value.trim() : '';
+
+      if (!email || !password) {
+        if (gateStatus) gateStatus.innerText = 'Please enter both email and password.';
+        return;
+      }
+
+      try {
+        if (submitLabel) submitLabel.innerText = isEmailRegisterMode ? 'Creating account...' : 'Signing in...';
+        if (gateStatus) gateStatus.innerText = 'Authenticating with Firebase...';
+
+        if (isEmailRegisterMode) {
+          const cred = await createUserWithEmailAndPassword(auth, email, password);
+          const firstName = rawName
+            ? rawName.split(/\s+/)[0]
+            : email.split('@')[0].split(/[._-]/)[0];
+          const formattedName = firstName.charAt(0).toUpperCase() + firstName.slice(1);
+          await updateProfile(cred.user, { displayName: formattedName });
+          updateAuthUI(cred.user);
+        } else {
+          await signInWithEmailAndPassword(auth, email, password);
+        }
+      } catch (err) {
+        console.error('Email auth error:', err);
+        if (submitLabel) submitLabel.innerText = isEmailRegisterMode ? 'Create Account & Enter' : 'Sign In with Email';
+        if (gateStatus) {
+          if (err.code === 'auth/invalid-credential' || err.code === 'auth/wrong-password' || err.code === 'auth/user-not-found') {
+            gateStatus.innerText = 'Invalid email or password. Try again or create an account.';
+          } else if (err.code === 'auth/email-already-in-use') {
+            gateStatus.innerText = 'This email is already registered. Switch to "Sign In with Email".';
+          } else if (err.code === 'auth/weak-password') {
+            gateStatus.innerText = 'Password must be at least 6 characters.';
+          } else {
+            gateStatus.innerText = err.message || 'Authentication failed.';
+          }
+        }
+      }
+    };
+
+    window.handlePasswordReset = async function handlePasswordReset() {
+      const gateStatus = document.getElementById('gate-auth-status');
+      const emailInput = document.getElementById('auth-email');
+      const email = emailInput ? emailInput.value.trim() : '';
+
+      if (!email) {
+        if (gateStatus) gateStatus.innerText = 'Enter your email address above first, then click Forgot password.';
+        return;
+      }
+
+      try {
+        await sendPasswordResetEmail(auth, email);
+        if (gateStatus) gateStatus.innerText = `Password reset link sent to ${email}!`;
+      } catch (err) {
+        if (gateStatus) gateStatus.innerText = err.message || 'Could not send reset email.';
+      }
+    };
+
+    window.handleGoogleAuthClick = async function handleGoogleAuthClick() {
+      const gateStatus = document.getElementById('gate-auth-status');
+      const gateBtnLabel = document.getElementById('gate-signin-label');
+
+      if (!auth) {
+        if (gateStatus) gateStatus.innerText = 'Firebase is not configured yet.';
+        return;
+      }
+
+      if (currentUser && !currentUser.isAnonymous) {
+        try {
+          if (unsubscribeSnapshot) unsubscribeSnapshot();
+          await signOut(auth);
+        } catch (err) {
+          console.error('Sign-out error:', err);
+        }
+        return;
+      }
+
+      try {
+        if (gateBtnLabel) gateBtnLabel.innerText = 'Opening Google Sign-In...';
+        if (gateStatus) gateStatus.innerText = 'Waiting for Google Account popup...';
+        const provider = new GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
+        await signInWithPopup(auth, provider);
+      } catch (err) {
+        console.error('Google Sign-In error:', err);
+        if (gateBtnLabel) gateBtnLabel.innerText = 'Continue with Google Account';
+        if (gateStatus) {
+          if (err.code === 'auth/unauthorized-domain') {
+            gateStatus.innerText = 'Add your Vercel domain in Firebase → Authentication → Settings → Authorized domains.';
+          } else if (err.code === 'auth/popup-closed-by-user') {
+            gateStatus.innerText = 'Sign-in popup closed. Click above to sign in with Google.';
+          } else {
+            gateStatus.innerText = 'Sign-in failed: ' + (err.message || err.code);
+          }
+        }
+      }
+    };
+
+    function attachTripListener() {
+      if (!db || !currentUser) return;
+      if (unsubscribeSnapshot) unsubscribeSnapshot();
+
+      sharedTripDocRef = doc(db, 'trips', 'north-sikkim-2026');
+
+      unsubscribeSnapshot = onSnapshot(
+        sharedTripDocRef,
+        (snap) => {
+          if (snap.exists()) {
+            const cloudData = snap.data();
+            if (cloudData && Array.isArray(cloudData.budget) && Array.isArray(cloudData.itinerary)) {
+              const localTheme = tripData.theme;
+              const localDisplayMode = tripData.expenseDisplayMode;
+              const signedInFirstName = extractGoogleFirstName(currentUser);
+
+              tripData.adminEmail = ADMIN_EMAIL_OVERRIDE.trim() || cloudData.adminEmail || tripData.adminEmail || (currentUser.email ? currentUser.email.toLowerCase().trim() : '');
+              tripData.members = Array.isArray(cloudData.members) && cloudData.members.length === 3
+                ? cloudData.members
+                : tripData.members;
+              tripData.budgetView = cloudData.budgetView || tripData.budgetView;
+              tripData.budget = cloudData.budget;
+              tripData.itinerary = cloudData.itinerary;
+
+              tripData.activeUser = signedInFirstName;
+              tripData.theme = localTheme;
+              tripData.expenseDisplayMode = localDisplayMode;
+
+              let needsMigration = false;
+              const defaultItinMap = Object.fromEntries(INITIAL_TRIP_DATA.itinerary.map(d => [d.id, d]));
+              tripData.itinerary.forEach(item => {
+                const target = defaultItinMap[item.id];
+                if (target && (item.title !== target.title || item.desc !== target.desc)) {
+                  item.title = target.title;
+                  item.desc = target.desc;
+                  needsMigration = true;
+                }
+              });
+
+              if (needsMigration || (!cloudData.adminEmail && tripData.adminEmail)) {
+                saveCloudData();
+              }
+
+              renderAll();
+            }
+            updateSyncStatus('live', 'Live Cloud Sync');
+          } else {
+            saveCloudData();
+          }
+        },
+        (error) => {
+          console.error('Firestore listener error:', error);
+          updateSyncStatus('offline', 'Firestore Rules Needed');
+        }
+      );
+    }
+
+    async function initCloudSync() {
+      if (!activeFirebaseConfig) {
+        updateSyncStatus('offline', 'Firebase Config Missing');
+        return;
+      }
+
+      try {
+        app = initializeApp(activeFirebaseConfig);
+        auth = getAuth(app);
+        db = getFirestore(app);
+
+        onAuthStateChanged(auth, (user) => {
+          currentUser = user;
+          updateAuthUI(user);
+
+          if (user && !user.isAnonymous) {
+            attachTripListener();
+          } else if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+            signInWithCustomToken(auth, __initial_auth_token).catch(() => {});
+          }
+        });
+      } catch (err) {
+        console.error('Firebase init error:', err);
+        updateSyncStatus('offline', 'Firebase Error');
+      }
+    }
+
+    function saveLocalPreferences() {
+      localStorage.setItem('sikkim_pref_theme', tripData.theme);
+      localStorage.setItem('sikkim_pref_user', tripData.activeUser);
+      localStorage.setItem('sikkim_pref_display_mode', tripData.expenseDisplayMode);
+    }
+
+    async function saveCloudData() {
+      saveLocalPreferences();
+      if (!sharedTripDocRef || !currentUser) return;
+
+      try {
+        updateSyncStatus('saving', 'Syncing...');
+        const payload = {
+          adminEmail: tripData.adminEmail || '',
+          members: tripData.members,
+          budgetView: tripData.budgetView,
+          budget: tripData.budget,
+          itinerary: tripData.itinerary,
+          updatedAt: new Date().toISOString(),
+          updatedBy: tripData.activeUser
+        };
+        await setDoc(sharedTripDocRef, payload, { merge: true });
+        updateSyncStatus('live', 'Live Cloud Sync');
+      } catch (error) {
+        console.error('Cloud save failed:', error);
+        updateSyncStatus('offline', 'Sync Blocked (Check Rules)');
+      }
+    }
+
+    window.copyShareLink = function copyShareLink() {
+      const btnLabel = document.getElementById('copy-link-label');
+      const totalGroup = tripData.budget.reduce((acc, item) => acc + (Number(item.groupAmount) || 0), 0);
+      const perPerson = Math.round(totalGroup / 3);
+      const shareUrl = window.location.href;
+      const summaryText = `🏔️ North Sikkim Tour 2026 (Nov 29 – Dec 05, 2026)\n💰 Total: ₹${totalGroup.toLocaleString('en-IN')} (₹${perPerson.toLocaleString('en-IN')}/person)\n🔗 Live Portal: ${shareUrl}`;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(summaryText).then(() => {
+          if (btnLabel) {
+            btnLabel.innerText = 'Copied!';
+            setTimeout(() => { btnLabel.innerText = 'Share'; }, 2200);
+          }
+        });
+      }
+    };
+
+    window.toggleTheme = function toggleTheme() {
+      tripData.theme = tripData.theme === 'dark' ? 'light' : 'dark';
+      applyTheme(tripData.theme);
+      saveLocalPreferences();
+    };
+
+    window.setExpenseDisplayMode = function setExpenseDisplayMode(mode) {
+      tripData.expenseDisplayMode = mode;
+      saveLocalPreferences();
+      applyExpenseDisplayModeUI();
+      renderBudgetItems();
+    };
+
+    function applyExpenseDisplayModeUI() {
+      const isSheet = tripData.expenseDisplayMode === 'sheet';
+      const tabCards = document.getElementById('tab-display-cards');
+      const tabSheet = document.getElementById('tab-display-sheet');
+      const cardsView = document.getElementById('budget-cards-view');
+      const sheetView = document.getElementById('budget-sheet-view');
+
+      if (tabCards && tabSheet) {
+        if (!isSheet) {
+          tabCards.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm flex items-center gap-1.5';
+          tabSheet.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary flex items-center gap-1.5';
+        } else {
+          tabSheet.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-teal shadow-sm flex items-center gap-1.5';
+          tabCards.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary flex items-center gap-1.5';
+        }
+      }
+
+      if (cardsView && sheetView) {
+        cardsView.classList.toggle('hidden', isSheet);
+        sheetView.classList.toggle('hidden', !isSheet);
+      }
+    }
+
+    function escapeHTML(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function getCurrentTimestampISO() {
+      const now = new Date();
+      const pad = n => String(n).padStart(2, '0');
+      return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}T${pad(now.getHours())}:${pad(now.getMinutes())}`;
+    }
+
+    function formatDisplayTimestamp(isoStr) {
+      if (!isoStr) return 'Just now';
+      const d = new Date(isoStr);
+      if (isNaN(d.getTime())) return isoStr;
+      return d.toLocaleString('en-IN', {
+        day: '2-digit',
+        month: 'short',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true
+      });
+    }
+
+    function renderActiveUserUI() {
+      const activeNameEl = document.getElementById('active-user-name');
+      const formLabel = document.getElementById('form-active-user-label');
+      const adminBadge = document.getElementById('admin-role-badge');
+      const clearAllBtn = document.getElementById('admin-clear-all-btn');
+      const isAdmin = isCurrentUserAdmin();
+
+      if (activeNameEl) activeNameEl.innerText = tripData.activeUser || 'Explorer';
+      if (formLabel) formLabel.innerText = tripData.activeUser || 'Explorer';
+      if (adminBadge) adminBadge.classList.toggle('hidden', !isAdmin);
+      if (clearAllBtn) clearAllBtn.classList.toggle('hidden', !isAdmin || tripData.budget.length === 0);
+    }
+
+    // LIVE COUNTDOWN & DYNAMIC TOUR DAY STATUS (Nov 29 – Dec 05, 2026)
+    const TOUR_DAY_SCHEDULE = [
+      {
+        start: new Date('2026-11-29T22:15:00+05:30').getTime(),
+        end: new Date('2026-11-30T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 1 OF 7 • NOV 29',
+        headline: '🚂 BOARDED 12343 DARJEELING MAIL!',
+        subline: 'Overnight journey from Sealdah to NJP (Coach B1) • Have a safe trip!',
+        slideIdx: 0
+      },
+      {
+        start: new Date('2026-11-30T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-01T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 2 OF 7 • NOV 30',
+        headline: '🏔️ DAY 2: NJP → GANGTOK & M.G. MARG',
+        subline: 'Arrive NJP 07:50 AM • Via Singtam & Rangpo • Evening M.G. Marg',
+        slideIdx: 1
+      },
+      {
+        start: new Date('2026-12-01T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-02T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 3 OF 7 • DEC 01',
+        headline: '🌲 DAY 3: GANGTOK → LACHUNG',
+        subline: 'Via Butterfly Falls, Chungthang View Point & Naga Falls',
+        slideIdx: 2
+      },
+      {
+        start: new Date('2026-12-02T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-03T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 4 OF 7 • DEC 02',
+        headline: '❄️ DAY 4: YUMTHANG VALLEY & ZERO POINT',
+        subline: 'Morning excursion to Yumthang & Zero Point • Overnight Lachung',
+        slideIdx: 3
+      },
+      {
+        start: new Date('2026-12-03T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-04T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 5 OF 7 • DEC 03',
+        headline: '🏔️ DAY 5: LACHUNG → GANGTOK',
+        subline: 'Post-breakfast drive to Gangtok • Check in, rest & stay at Gangtok',
+        slideIdx: 4
+      },
+      {
+        start: new Date('2026-12-04T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-05T00:00:00+05:30').getTime(),
+        dayLabel: 'DAY 6 OF 7 • DEC 04',
+        headline: '🚄 DAY 6: GANGTOK → NJP (27576 VANDE BHARAT SL)',
+        subline: 'Drop to NJP • Board 27576 Vande Bharat Sleeper at 23:40 (Coach B7)',
+        slideIdx: 5
+      },
+      {
+        start: new Date('2026-12-05T00:00:00+05:30').getTime(),
+        end: new Date('2026-12-05T23:59:59+05:30').getTime(),
+        dayLabel: 'DAY 7 OF 7 • DEC 05',
+        headline: '🏁 DAY 7: ARRIVAL AT HOWRAH STATION (08:15 AM)',
+        subline: 'Welcome back! Tour concludes with unforgettable Himalayan memories',
+        slideIdx: 5
+      }
+    ];
+
+    let lastActiveTourPhase = null;
+
+    function updateCountdown() {
+      const departureDate = new Date('2026-11-29T22:15:00+05:30').getTime();
+      const tourEndDate = new Date('2026-12-05T23:59:59+05:30').getTime();
+      const now = getEffectiveNowMs();
+      const diff = departureDate - now;
+
+      const grid = document.getElementById('countdown-grid');
+      const liveBadgeText = document.getElementById('hero-live-badge-text');
+      const subtitlePill = document.getElementById('hero-subtitle-pill');
+
+      if (diff > 0) {
+        if (lastActiveTourPhase !== 'COUNTDOWN') {
+          lastActiveTourPhase = 'COUNTDOWN';
+          if (liveBadgeText) liveBadgeText.innerText = 'Live Countdown';
+          if (subtitlePill) {
+            subtitlePill.innerHTML = `Departure: <span class="text-adaptive-teal font-extrabold">29 Nov 2026, 10:15 pm (Darjeeling Mail)</span>`;
+          }
+          if (grid && !document.getElementById('cd-days')) {
+            grid.innerHTML = `
+              <div class="countdown-tile p-2 sm:p-4 rounded-xl sm:rounded-2xl">
+                <div id="cd-days" class="cd-number text-lg sm:text-4xl font-black tracking-tight">00</div>
+                <div class="cd-label text-[9px] sm:text-xs uppercase tracking-widest font-bold mt-0.5 sm:mt-1">Days</div>
+              </div>
+              <div class="countdown-tile p-2 sm:p-4 rounded-xl sm:rounded-2xl">
+                <div id="cd-hours" class="cd-number text-lg sm:text-4xl font-black tracking-tight">00</div>
+                <div class="cd-label text-[9px] sm:text-xs uppercase tracking-widest font-bold mt-0.5 sm:mt-1">Hours</div>
+              </div>
+              <div class="countdown-tile p-2 sm:p-4 rounded-xl sm:rounded-2xl">
+                <div id="cd-mins" class="cd-number text-lg sm:text-4xl font-black tracking-tight">00</div>
+                <div class="cd-label text-[9px] sm:text-xs uppercase tracking-widest font-bold mt-0.5 sm:mt-1">Mins</div>
+              </div>
+              <div class="countdown-tile p-2 sm:p-4 rounded-xl sm:rounded-2xl border-amber-400/50">
+                <div id="cd-secs" class="cd-sec-number text-lg sm:text-4xl font-black tracking-tight">00</div>
+                <div class="cd-sec-label text-[9px] sm:text-xs uppercase tracking-widest font-bold mt-0.5 sm:mt-1">Secs</div>
+              </div>
+            `;
+          }
+        }
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+        const dEl = document.getElementById('cd-days');
+        const hEl = document.getElementById('cd-hours');
+        const mEl = document.getElementById('cd-mins');
+        const sEl = document.getElementById('cd-secs');
+
+        if (dEl) dEl.innerText = String(days).padStart(2, '0');
+        if (hEl) hEl.innerText = String(hours).padStart(2, '0');
+        if (mEl) mEl.innerText = String(mins).padStart(2, '0');
+        if (sEl) sEl.innerText = String(secs).padStart(2, '0');
+        return;
+      }
+
+      if (now <= tourEndDate) {
+        const activeDay = TOUR_DAY_SCHEDULE.find(d => now >= d.start && now < d.end) || TOUR_DAY_SCHEDULE[TOUR_DAY_SCHEDULE.length - 1];
+        if (lastActiveTourPhase !== activeDay.dayLabel) {
+          lastActiveTourPhase = activeDay.dayLabel;
+          if (liveBadgeText) liveBadgeText.innerText = activeDay.dayLabel;
+          if (subtitlePill) {
+            subtitlePill.innerHTML = `<span class="text-adaptive-teal font-extrabold">${escapeHTML(activeDay.subline)}</span>`;
+          }
+          if (grid) {
+            grid.innerHTML = `
+              <div class="col-span-4 py-3.5 px-4 sm:py-4 sm:px-6 rounded-2xl btn-solid-teal font-black text-xs sm:text-xl tracking-wider shadow-lg ios-view-enter">
+                ${escapeHTML(activeDay.headline)}
+              </div>
+            `;
+          }
+          window.goToSlide(activeDay.slideIdx);
+        }
+        return;
+      }
+
+      if (lastActiveTourPhase !== 'COMPLETED') {
+        lastActiveTourPhase = 'COMPLETED';
+        if (liveBadgeText) liveBadgeText.innerText = 'TOUR COMPLETED • NOV 29 – DEC 05, 2026';
+        if (subtitlePill) {
+          subtitlePill.innerHTML = `<span class="text-adaptive-teal font-extrabold">7 Days • 15,300 ft Zero Point • Memories Forever</span>`;
+        }
+        if (grid) {
+          grid.innerHTML = `
+            <div class="col-span-4 py-3.5 px-4 sm:py-4 sm:px-6 rounded-2xl btn-solid-gradient font-black text-xs sm:text-xl tracking-wider shadow-lg ios-view-enter">
+              🎉 NORTH SIKKIM TOUR 2026 COMPLETED!
+            </div>
+          `;
+        }
+      }
+    }
+
+    // RENDER ITINERARY
+    function renderItinerary() {
+      const container = document.getElementById('itinerary-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      let doneCount = 0;
+      tripData.itinerary.forEach((day, idx) => {
+        if (day.done) doneCount++;
+        const card = document.createElement('div');
+        card.onclick = () => {
+          const matchedSlide = HERO_SLIDES.findIndex(s => s.dayIndex === idx);
+          if (matchedSlide !== -1) window.goToSlide(matchedSlide);
+        };
+        card.className = `relative z-10 p-3 sm:p-3.5 rounded-xl sm:rounded-2xl glass-subcard cursor-pointer ios-pressable ${day.done ? 'border-emerald-500/50 opacity-85' : ''}`;
+        card.innerHTML = `
+          <div class="flex items-start justify-between gap-2.5 sm:gap-3">
+            <div class="flex items-start gap-2.5 sm:gap-3 min-w-0">
+              <span class="w-7 h-7 sm:w-8 sm:h-8 rounded-full flex-shrink-0 flex items-center justify-center text-[11px] sm:text-xs font-black shadow-sm ${day.done ? 'btn-solid-teal' : 'day-pill-pending'}">
+                ${day.done ? '<i class="fas fa-check text-white-keep"></i>' : 'D' + (idx + 1)}
+              </span>
+              <div class="min-w-0">
+                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                  <span class="text-[11px] sm:text-xs font-extrabold text-adaptive-teal uppercase tracking-wider">${escapeHTML(day.date)}</span>
+                  <h3 class="text-xs sm:text-sm font-extrabold text-adaptive-primary ${day.done ? 'line-through opacity-75' : ''}">${escapeHTML(day.title)}</h3>
+                </div>
+                <p class="text-[11px] sm:text-xs text-adaptive-secondary mt-1 sm:mt-1.5 leading-relaxed">${escapeHTML(day.desc)}</p>
+              </div>
+            </div>
+            <label onclick="event.stopPropagation()" class="p-1.5 -m-1.5 flex items-center justify-center cursor-pointer flex-shrink-0">
+              <input type="checkbox" ${day.done ? 'checked' : ''} onchange="toggleItinerary('${day.id}')" title="Mark day complete" class="w-5 h-5 rounded accent-emerald-500 cursor-pointer">
+            </label>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+
+      const badge = document.getElementById('itinerary-progress-badge');
+      if (badge) badge.innerText = `${doneCount}/${tripData.itinerary.length} Days Done`;
+    }
+
+    window.toggleItinerary = function toggleItinerary(id) {
+      const day = tripData.itinerary.find(d => d.id === id);
+      if (day) {
+        day.done = !day.done;
+        renderItinerary();
+        saveCloudData();
+      }
+    };
+
+    // BUDGET VIEW & RENDERING
+    window.setBudgetView = function setBudgetView(view) {
+      tripData.budgetView = view;
+      const btnPerHead = document.getElementById('view-per-head');
+      const btnGroup = document.getElementById('view-group-total');
+
+      if (view === 'per_head') {
+        btnPerHead.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-sky shadow text-center';
+        btnGroup.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+      } else {
+        btnGroup.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-sky shadow text-center';
+        btnPerHead.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+      }
+
+      document.querySelectorAll('.view-label').forEach(el => {
+        el.innerText = view === 'per_head' ? 'PER PERSON' : 'GROUP TOTAL';
+      });
+
+      renderBudget();
+      saveCloudData();
+    };
+
+    function renderBudget() {
+      const isPerHead = tripData.budgetView === 'per_head';
+      const divisor = isPerHead ? 3 : 1;
+
+      let totalGroup = 0;
+      let paidGroup = 0;
+      let paidItemsCount = 0;
+      let pendingItemsCount = 0;
+      const categoryTotals = {};
+
+      tripData.budget.forEach(item => {
+        const amt = Number(item.groupAmount) || 0;
+        totalGroup += amt;
+        if (item.paid) {
+          paidGroup += amt;
+          paidItemsCount++;
+        } else {
+          pendingItemsCount++;
+        }
+        categoryTotals[item.category] = (categoryTotals[item.category] || 0) + amt;
+      });
+
+      const pendingGroup = Math.max(0, totalGroup - paidGroup);
+      const displayTotal = Math.round(totalGroup / divisor);
+      const displayPaid = Math.round(paidGroup / divisor);
+      const displayPending = Math.round(pendingGroup / divisor);
+      const paidPercent = totalGroup > 0 ? Math.round((paidGroup / totalGroup) * 100) : 0;
+
+      document.getElementById('stat-target-budget').innerText = `₹${displayTotal.toLocaleString('en-IN')}`;
+      document.getElementById('stat-amount-paid').innerText = `₹${displayPaid.toLocaleString('en-IN')}`;
+      document.getElementById('stat-pending-balance').innerText = `₹${displayPending.toLocaleString('en-IN')}`;
+      document.getElementById('progress-percent').innerText = `${paidPercent}%`;
+      document.getElementById('progress-bar-fill').style.width = `${paidPercent}%`;
+      document.getElementById('item-count-badge').innerText = `${tripData.budget.length} items`;
+
+      const ratioPill = document.getElementById('progress-ratio-pill');
+      if (ratioPill) {
+        ratioPill.innerText = `₹${displayPaid.toLocaleString('en-IN')} / ₹${displayTotal.toLocaleString('en-IN')}`;
+      }
+
+      const milestoneTag = document.getElementById('progress-milestone-tag');
+      if (milestoneTag) {
+        if (totalGroup === 0) {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-sky font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = 'Ready';
+        } else if (paidPercent === 100) {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-teal font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = '🎉 100% Settled';
+        } else if (paidPercent >= 75) {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-teal font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = 'Almost Done';
+        } else if (paidPercent >= 50) {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-sky font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = 'Over Halfway';
+        } else if (paidPercent > 0) {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-amber font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = 'In Progress';
+        } else {
+          milestoneTag.className = 'text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full pill-amber font-extrabold uppercase tracking-wider';
+          milestoneTag.innerText = '0% Paid';
+        }
+      }
+
+      [
+        { id: 'ms-0', threshold: 0 },
+        { id: 'ms-25', threshold: 25 },
+        { id: 'ms-50', threshold: 50 },
+        { id: 'ms-75', threshold: 75 },
+        { id: 'ms-100', threshold: 100 }
+      ].forEach(m => {
+        const el = document.getElementById(m.id);
+        if (el) {
+          el.className = (totalGroup > 0 && paidPercent >= m.threshold)
+            ? 'text-adaptive-teal font-extrabold'
+            : 'text-adaptive-muted font-bold';
+        }
+      });
+
+      const countAllEl = document.getElementById('count-exp-all');
+      const countPaidEl = document.getElementById('count-exp-paid');
+      const countPendingEl = document.getElementById('count-exp-pending');
+      if (countAllEl) countAllEl.innerText = tripData.budget.length;
+      if (countPaidEl) countPaidEl.innerText = paidItemsCount;
+      if (countPendingEl) countPendingEl.innerText = pendingItemsCount;
+
+      const detailNote = document.getElementById('progress-detail-note');
+      if (detailNote) {
+        if (tripData.budget.length === 0) {
+          detailNote.innerText = 'No expenses logged yet';
+        } else if (pendingItemsCount === 0) {
+          detailNote.innerHTML = `<span class="text-adaptive-teal font-extrabold">All ${paidItemsCount} settled!</span>`;
+        } else {
+          const perHeadLeft = Math.round(pendingGroup / 3);
+          detailNote.innerHTML = `${pendingItemsCount} due • <strong class="text-adaptive-amber">₹${perHeadLeft.toLocaleString('en-IN')}/head</strong> left`;
+        }
+      }
+
+      updateExpenseFilterButtons();
+      renderCategoryBar(categoryTotals, totalGroup, divisor);
+      renderBudgetItems();
+    }
+
+    function renderCategoryBar(categoryTotals, totalGroup, divisor) {
+      const bar = document.getElementById('category-bar');
+      const legend = document.getElementById('category-legend');
+      bar.innerHTML = '';
+      legend.innerHTML = '';
+
+      if (totalGroup <= 0) {
+        legend.innerHTML = `<span class="text-adaptive-muted">Add an expense below to view category distribution.</span>`;
+        return;
+      }
+
+      Object.entries(categoryTotals).forEach(([cat, amt]) => {
+        if (amt <= 0) return;
+        const pct = ((amt / totalGroup) * 100).toFixed(1);
+        const color = CATEGORY_COLORS[cat] || '#64748b';
+        const displayAmt = Math.round(amt / divisor);
+
+        const seg = document.createElement('div');
+        seg.style.width = `${pct}%`;
+        seg.style.backgroundColor = color;
+        seg.title = `${cat}: ₹${displayAmt.toLocaleString('en-IN')} (${pct}%)`;
+        seg.className = 'h-full first:rounded-l-full last:rounded-r-full transition-all duration-500 ease-out';
+        bar.appendChild(seg);
+
+        const legItem = document.createElement('span');
+        legItem.className = 'inline-flex items-center gap-1.5 badge-surface px-2 py-1 rounded-xl';
+        legItem.innerHTML = `
+          <span class="w-2 h-2 rounded-full flex-shrink-0" style="background-color: ${color}"></span>
+          <span class="font-bold text-adaptive-primary">${escapeHTML(cat)}:</span>
+          <span class="font-semibold">₹${displayAmt.toLocaleString('en-IN')} (${pct}%)</span>
+        `;
+        legend.appendChild(legItem);
+      });
+    }
+
+    function renderBudgetItems() {
+      const listContainer = document.getElementById('budget-cards-view');
+      const sheetTbody = document.getElementById('budget-sheet-tbody');
+      const sheetTfoot = document.getElementById('budget-sheet-tfoot');
+      if (!listContainer || !sheetTbody || !sheetTfoot) return;
+
+      listContainer.innerHTML = '';
+      sheetTbody.innerHTML = '';
+      sheetTfoot.innerHTML = '';
+
+      const isPerHead = tripData.budgetView === 'per_head';
+      const divisor = isPerHead ? 3 : 1;
+      const isAdmin = isCurrentUserAdmin();
+
+      const clearAllBtn = document.getElementById('admin-clear-all-btn');
+      if (clearAllBtn) clearAllBtn.classList.toggle('hidden', !isAdmin || tripData.budget.length === 0);
+
+      if (tripData.budget.length === 0) {
+        listContainer.innerHTML = `
+          <div class="glass-subcard p-5 rounded-2xl text-center space-y-1.5">
+            <i class="fas fa-receipt text-2xl text-adaptive-muted opacity-70"></i>
+            <p class="text-sm font-extrabold text-adaptive-primary">No Expenses Recorded Yet</p>
+            <p class="text-xs text-adaptive-muted">Use the form above to add your first tour expense—it will sync live for everyone.</p>
+          </div>
+        `;
+        sheetTbody.innerHTML = `
+          <tr>
+            <td colspan="7" class="py-8 text-center text-xs text-adaptive-muted font-semibold">
+              Notebook sheet is empty — add an expense above to start logging rows.
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      let runningDisplayTotal = 0;
+
+      const filteredItems = tripData.budget.filter(item => {
+        if (expenseStatusFilter === 'paid') return Boolean(item.paid);
+        if (expenseStatusFilter === 'pending') return !item.paid;
+        return true;
+      });
+
+      if (filteredItems.length === 0) {
+        const emptyLabel = expenseStatusFilter === 'paid'
+          ? 'No paid expenses yet — check off an item to mark it paid.'
+          : 'All expenses are marked as Paid!';
+        listContainer.innerHTML = `
+          <div class="glass-subcard p-5 rounded-2xl text-center space-y-2">
+            <p class="text-xs font-extrabold text-adaptive-secondary">${emptyLabel}</p>
+            <button onclick="setExpenseFilter('all')" class="px-3 py-1.5 rounded-xl pill-sky text-xs font-extrabold">Show All Items</button>
+          </div>
+        `;
+        sheetTbody.innerHTML = `
+          <tr>
+            <td colspan="7" class="py-6 text-center text-xs text-adaptive-muted font-semibold">
+              ${emptyLabel}
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      filteredItems.forEach((item, index) => {
+        const displayAmt = Math.round((Number(item.groupAmount) || 0) / divisor);
+        runningDisplayTotal += displayAmt;
+        const catColor = CATEGORY_COLORS[item.category] || '#64748b';
+        const formattedTime = formatDisplayTimestamp(item.timestamp);
+        const editorName = item.lastEditedBy || 'Explorer';
+
+        const deleteBtnHtml = isAdmin
+          ? `<button onclick="deleteItem('${item.id}')" title="Admin: Delete item" class="w-9 h-9 flex items-center justify-center text-adaptive-muted hover:text-rose-500 rounded-xl">
+               <i class="fas fa-trash-alt text-sm"></i>
+             </button>`
+          : `<span title="Only Admin (${escapeHTML(tripData.adminEmail || 'Organizer')}) can delete expenses" class="w-8 h-8 flex items-center justify-center text-adaptive-muted opacity-40 cursor-not-allowed">
+               <i class="fas fa-lock text-xs"></i>
+             </span>`;
+
+        const row = document.createElement('div');
+        row.className = `p-3 sm:p-3.5 rounded-xl sm:rounded-2xl glass-subcard flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3 ${item.paid ? 'border-emerald-500/40' : ''}`;
+        row.innerHTML = `
+          <div class="flex items-start gap-2.5 sm:gap-3 flex-grow min-w-0">
+            <label class="p-1.5 -m-1.5 flex items-center justify-center cursor-pointer flex-shrink-0 mt-0.5">
+              <input type="checkbox" ${item.paid ? 'checked' : ''} onchange="togglePaid('${item.id}')" class="w-5 h-5 rounded accent-emerald-500 cursor-pointer">
+            </label>
+            <div class="min-w-0 flex-grow">
+              <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <span class="text-xs sm:text-sm font-extrabold text-adaptive-primary ${item.paid ? 'line-through opacity-75' : ''}">${escapeHTML(item.title)}</span>
+                <span class="text-[9px] sm:text-[10px] px-2 py-0.5 rounded-md font-extrabold text-white-keep shadow-sm" style="background-color: ${catColor}">
+                  ${escapeHTML(item.category)}
+                </span>
+                ${item.paid ? '<span class="text-[9px] sm:text-[10px] px-2 py-0.5 rounded-md pill-teal font-extrabold">PAID</span>' : ''}
+              </div>
+              <p class="text-[11px] sm:text-xs text-adaptive-secondary mt-1 truncate">${escapeHTML(item.desc || 'Tour expense')}</p>
+              
+              <div class="flex flex-wrap items-center gap-1.5 mt-1.5 sm:mt-2">
+                <span class="inline-flex items-center gap-1 text-[10px] sm:text-[11px] badge-surface px-2 py-0.5 rounded-lg sm:rounded-xl text-adaptive-secondary font-semibold">
+                  <i class="fas fa-clock text-adaptive-amber text-[9px]"></i>
+                  <span>${escapeHTML(formattedTime)}</span>
+                </span>
+                <span class="inline-flex items-center gap-1 text-[10px] sm:text-[11px] pill-sky px-2 py-0.5 rounded-lg sm:rounded-xl font-bold">
+                  <i class="fas fa-user-edit text-[9px]"></i> ${escapeHTML(editorName)}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between sm:justify-end gap-2 pl-7 sm:pl-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-500/20 flex-shrink-0">
+            <div class="flex items-center sm:flex-col sm:items-end gap-2 sm:gap-0">
+              <div class="flex items-center glass-input rounded-xl px-2.5 py-1 focus-within:border-emerald-500">
+                <span class="text-xs font-bold text-adaptive-muted mr-1">₹</span>
+                <input type="number" inputmode="decimal" value="${displayAmt}" onchange="updateItemAmount('${item.id}', this.value)" class="w-24 sm:w-20 bg-transparent text-right text-sm font-extrabold text-adaptive-primary focus:outline-none">
+              </div>
+              <span class="text-[10px] font-semibold text-adaptive-muted sm:mt-0.5">${isPerHead ? 'Per Person' : 'Group Total'}</span>
+            </div>
+            ${deleteBtnHtml}
+          </div>
+        `;
+        listContainer.appendChild(row);
+
+        const tr = document.createElement('tr');
+        tr.className = item.paid ? 'opacity-80' : '';
+        tr.innerHTML = `
+          <td class="notebook-margin-col text-[11px] font-bold text-adaptive-muted">${index + 1}</td>
+          <td class="text-center">
+            <input type="checkbox" ${item.paid ? 'checked' : ''} onchange="togglePaid('${item.id}')" class="w-5 h-5 rounded accent-emerald-500 cursor-pointer">
+          </td>
+          <td class="min-w-[130px]">
+            <div class="text-xs font-extrabold text-adaptive-primary ${item.paid ? 'line-through opacity-75' : ''}">${escapeHTML(item.title)}</div>
+            <div class="text-[10px] text-adaptive-muted truncate max-w-[170px]">${escapeHTML(item.desc || '')}</div>
+          </td>
+          <td>
+            <span class="text-[10px] px-2 py-0.5 rounded-md font-extrabold text-white-keep whitespace-nowrap" style="background-color: ${catColor}">
+              ${escapeHTML(item.category)}
+            </span>
+          </td>
+          <td class="whitespace-nowrap">
+            <div class="text-[11px] font-bold text-adaptive-cyan">${escapeHTML(editorName)}</div>
+            <div class="text-[10px] text-adaptive-muted">${escapeHTML(formattedTime)}</div>
+          </td>
+          <td class="text-right whitespace-nowrap">
+            <div class="inline-flex items-center glass-input rounded-lg px-2 py-1">
+              <span class="text-[11px] font-bold text-adaptive-muted mr-0.5">₹</span>
+              <input type="number" inputmode="decimal" value="${displayAmt}" onchange="updateItemAmount('${item.id}', this.value)" class="w-20 sm:w-16 bg-transparent text-right text-xs font-extrabold text-adaptive-primary focus:outline-none">
+            </div>
+          </td>
+          <td class="text-center">
+            ${deleteBtnHtml}
+          </td>
+        `;
+        sheetTbody.appendChild(tr);
+      });
+
+      sheetTfoot.innerHTML = `
+        <tr style="background: var(--sheet-header);">
+          <td colspan="5" class="px-3 py-2.5 text-right uppercase tracking-wider text-[11px] text-adaptive-secondary">
+            Total (${isPerHead ? 'Per Person 1/3' : 'Group Total 3 Pax'}):
+          </td>
+          <td class="px-3 py-2.5 text-right text-sm font-black text-adaptive-teal whitespace-nowrap">
+            ₹${runningDisplayTotal.toLocaleString('en-IN')}
+          </td>
+          <td></td>
+        </tr>
+      `;
+    }
+
+    window.togglePaid = function togglePaid(id) {
+      const item = tripData.budget.find(b => b.id === id);
+      if (item) {
+        item.paid = !item.paid;
+        item.timestamp = getCurrentTimestampISO();
+        item.lastEditedBy = tripData.activeUser;
+        renderBudget();
+        saveCloudData();
+      }
+    };
+
+    window.updateItemAmount = function updateItemAmount(id, newVal) {
+      const item = tripData.budget.find(b => b.id === id);
+      if (item) {
+        const parsed = Math.max(0, parseFloat(newVal) || 0);
+        const isPerHead = tripData.budgetView === 'per_head';
+        item.groupAmount = isPerHead ? Math.round(parsed * 3) : Math.round(parsed);
+        item.timestamp = getCurrentTimestampISO();
+        item.lastEditedBy = tripData.activeUser;
+        renderBudget();
+        saveCloudData();
+      }
+    };
+
+    window.deleteItem = function deleteItem(id) {
+      if (!isCurrentUserAdmin()) return;
+      tripData.budget = tripData.budget.filter(b => b.id !== id);
+      renderBudget();
+      saveCloudData();
+    };
+
+    window.clearAllExpenses = function clearAllExpenses() {
+      if (!isCurrentUserAdmin()) return;
+      tripData.budget = [];
+      renderBudget();
+      saveCloudData();
+    };
+
+    window.exportLedgerPDF = function exportLedgerPDF() {
+      const generatedOn = new Date().toLocaleString('en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true
+      });
+
+      let totalGroupAmt = 0;
+      let paidGroupAmt = 0;
+      let totalPerHeadAmt = 0;
+      let paidPerHeadAmt = 0;
+
+      const rowsHtml = tripData.budget.length === 0
+        ? `<tr><td colspan="7" style="text-align:center; padding: 24px; color: #64748b; font-style: italic;">No expenses recorded in ledger yet.</td></tr>`
+        : tripData.budget.map((item, idx) => {
+            const grpVal = Math.round(Number(item.groupAmount) || 0);
+            const perHeadVal = Math.round(grpVal / 3);
+            totalGroupAmt += grpVal;
+            totalPerHeadAmt += perHeadVal;
+            if (item.paid) {
+              paidGroupAmt += grpVal;
+              paidPerHeadAmt += perHeadVal;
+            }
+            const statusBadge = item.paid
+              ? `<span style="display:inline-block; padding:2px 8px; border-radius:4px; background:#dcfce7; color:#166534; font-weight:800; font-size:10px; border:1px solid #86efac;">PAID</span>`
+              : `<span style="display:inline-block; padding:2px 8px; border-radius:4px; background:#fef3c7; color:#92400e; font-weight:800; font-size:10px; border:1px solid #fcd34d;">DUE</span>`;
+
+            return `
+              <tr>
+                <td class="margin-col">${idx + 1}</td>
+                <td>
+                  <div style="font-weight:700; color:#0f172a;">${escapeHTML(item.title)}</div>
+                  ${item.desc ? `<div style="font-size:10px; color:#64748b; margin-top:2px;">${escapeHTML(item.desc)}</div>` : ''}
+                </td>
+                <td><span style="font-weight:700; color:#334155;">${escapeHTML(item.category)}</span></td>
+                <td>
+                  <div style="font-weight:700; color:#0369a1;">${escapeHTML(item.lastEditedBy || 'Explorer')}</div>
+                  <div style="font-size:10px; color:#64748b;">${escapeHTML(formatDisplayTimestamp(item.timestamp))}</div>
+                </td>
+                <td style="text-align:center;">${statusBadge}</td>
+                <td style="text-align:right; font-weight:800; font-variant-numeric:tabular-nums; color:#0369a1; background:rgba(224,242,254,0.28);">₹${perHeadVal.toLocaleString('en-IN')}</td>
+                <td style="text-align:right; font-weight:800; font-variant-numeric:tabular-nums; color:#0f172a;">₹${grpVal.toLocaleString('en-IN')}</td>
+              </tr>
+            `;
+          }).join('');
+
+      const balanceGroupDue = Math.max(0, totalGroupAmt - paidGroupAmt);
+      const balancePerHeadDue = Math.max(0, totalPerHeadAmt - paidPerHeadAmt);
+
+      const ledgerHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>North Sikkim Tour 2026 — Expense Ledger</title>
+  <style>
+    @page { size: A4 portrait; margin: 14mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #0f172a;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+    }
+    .sheet-container {
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fffdf9;
+    }
+    .ledger-header {
+      background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+      color: #ffffff;
+      padding: 18px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 3px solid #dc2626;
+    }
+    .ledger-header h1 {
+      margin: 0;
+      font-size: 19px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .ledger-header p {
+      margin: 4px 0 0;
+      font-size: 11px;
+      color: #cbd5e1;
+    }
+    .meta-box {
+      text-align: right;
+      font-size: 10.5px;
+      line-height: 1.5;
+      color: #e2e8f0;
+    }
+    .summary-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-bottom: 1.5px solid #cbd5e1;
+      background: #f8fafc;
+    }
+    .summary-cell {
+      padding: 12px 16px;
+      border-right: 1px solid #cbd5e1;
+    }
+    .summary-cell:last-child { border-right: none; }
+    .summary-label {
+      font-size: 9.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #475569;
+    }
+    .summary-value {
+      font-size: 16px;
+      font-weight: 900;
+      margin-top: 3px;
+      font-variant-numeric: tabular-nums;
+    }
+    .summary-sub {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #0369a1;
+      margin-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+    table.ledger-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 33px,
+        #e2e8f0 34px
+      );
+    }
+    table.ledger-table thead th {
+      background: #f1f5f9;
+      border-bottom: 2px solid #94a3b8;
+      border-right: 1px solid #cbd5e1;
+      padding: 9px 9px;
+      font-size: 9.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #1e293b;
+      text-align: left;
+    }
+    table.ledger-table tbody td {
+      padding: 8px 9px;
+      border-bottom: 1px solid #cbd5e1;
+      border-right: 1px solid #e2e8f0;
+      vertical-align: middle;
+    }
+    .margin-col {
+      width: 36px;
+      text-align: center !important;
+      font-weight: 800;
+      color: #64748b;
+      border-right: 2px solid #ef4444 !important;
+      background: rgba(254, 226, 226, 0.25);
+    }
+    table.ledger-table tfoot td {
+      padding: 11px 9px;
+      background: #ecfdf5;
+      border-top: 2px solid #059669;
+      border-right: 1px solid #a7f3d0;
+      font-weight: 900;
+      font-size: 12.5px;
+    }
+    .ledger-footer {
+      padding: 12px 20px;
+      background: #f8fafc;
+      border-top: 1px solid #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #475569;
+    }
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet-container">
+    <div class="ledger-header">
+      <div>
+        <h1>North Sikkim Tour 2026 — Expense Ledger</h1>
+        <p>Nov 29 – Dec 05, 2026 • Priyadip, Srinjay & Suman • Zero Point (15,300 ft)</p>
+      </div>
+      <div class="meta-box">
+        <div><strong>Split Basis:</strong> 3 Explorers (Per Head & Group)</div>
+        <div><strong>Exported By:</strong> ${escapeHTML(tripData.activeUser || 'Explorer')}</div>
+        <div><strong>Date:</strong> ${escapeHTML(generatedOn)}</div>
+      </div>
+    </div>
+
+    <div class="summary-strip">
+      <div class="summary-cell">
+        <div class="summary-label">Total Ledger Budget</div>
+        <div class="summary-value" style="color:#0f172a;">₹${totalGroupAmt.toLocaleString('en-IN')}</div>
+        <div class="summary-sub">Per Head (1/3): ₹${totalPerHeadAmt.toLocaleString('en-IN')}</div>
+      </div>
+      <div class="summary-cell">
+        <div class="summary-label">Total Settled / Paid</div>
+        <div class="summary-value" style="color:#059669;">₹${paidGroupAmt.toLocaleString('en-IN')}</div>
+        <div class="summary-sub">Per Head Paid: ₹${paidPerHeadAmt.toLocaleString('en-IN')}</div>
+      </div>
+      <div class="summary-cell">
+        <div class="summary-label">Pending Balance Due</div>
+        <div class="summary-value" style="color:#d97706;">₹${balanceGroupDue.toLocaleString('en-IN')}</div>
+        <div class="summary-sub">Per Head Due: ₹${balancePerHeadDue.toLocaleString('en-IN')}</div>
+      </div>
+    </div>
+
+    <table class="ledger-table">
+      <thead>
+        <tr>
+          <th class="margin-col">#</th>
+          <th>Particulars / Expense Item</th>
+          <th>Category</th>
+          <th>Logged By & Time</th>
+          <th style="text-align:center;">Status</th>
+          <th style="text-align:right; color:#0369a1; background:#e0f2fe;">Per Head (1/3)</th>
+          <th style="text-align:right;">Group Total (3)</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rowsHtml}
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5" style="text-align:right; color:#065f46; text-transform:uppercase; font-size:11px; letter-spacing:0.05em;">
+            Grand Total:
+          </td>
+          <td style="text-align:right; color:#0369a1; background:#e0f2fe; font-variant-numeric:tabular-nums;">
+            ₹${totalPerHeadAmt.toLocaleString('en-IN')}
+          </td>
+          <td style="text-align:right; color:#065f46; font-variant-numeric:tabular-nums;">
+            ₹${totalGroupAmt.toLocaleString('en-IN')}
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="ledger-footer">
+      <span>Synced via North Sikkim Tour 2026 Cloud Portal • 3 Explorers Split</span>
+      <span>Verified Account Sheet</span>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      setTimeout(function() { window.print(); }, 250);
+    };
+  <\/script>
+</body>
+</html>`;
+
+      const printWin = window.open('', '_blank', 'width=940,height=760');
+      if (printWin) {
+        printWin.document.open();
+        printWin.document.write(ledgerHtml);
+        printWin.document.close();
+      }
+    };
+
+    window.addCustomExpense = function addCustomExpense() {
+      const titleInput = document.getElementById('new-title');
+      const amtInput = document.getElementById('new-amount');
+      const catInput = document.getElementById('new-category');
+
+      const title = titleInput.value.trim();
+      const rawAmt = parseFloat(amtInput.value);
+      const category = catInput.value;
+
+      if (!title || isNaN(rawAmt) || rawAmt <= 0) {
+        titleInput.classList.add('border-rose-500');
+        setTimeout(() => titleInput.classList.remove('border-rose-500'), 1200);
+        return;
+      }
+
+      const isPerHead = tripData.budgetView === 'per_head';
+      const groupAmt = isPerHead ? Math.round(rawAmt * 3) : Math.round(rawAmt);
+
+      tripData.budget.unshift({
+        id: 'b' + Date.now(),
+        title: title,
+        category: category,
+        groupAmount: groupAmt,
+        paid: false,
+        desc: `Added by ${tripData.activeUser} (${isPerHead ? 'Per person entry × 3' : 'Group total entry'})`,
+        timestamp: getCurrentTimestampISO(),
+        lastEditedBy: tripData.activeUser
+      });
+
+      titleInput.value = '';
+      amtInput.value = '';
+      renderBudget();
+      saveCloudData();
+    };
+
+    function renderAll() {
+      applyTheme(tripData.theme);
+      applyExpenseDisplayModeUI();
+      renderActiveUserUI();
+      renderBoardingPass();
+      renderItinerary();
+
+      const btnPerHead = document.getElementById('view-per-head');
+      const btnGroup = document.getElementById('view-group-total');
+      if (btnPerHead && btnGroup) {
+        if (tripData.budgetView === 'per_head') {
+          btnPerHead.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-sky shadow text-center';
+          btnGroup.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+        } else {
+          btnGroup.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-extrabold btn-solid-sky shadow text-center';
+          btnPerHead.className = 'mobile-touch-btn px-3 py-1.5 rounded-xl font-bold text-adaptive-secondary hover:text-adaptive-primary text-center';
+        }
+      }
+      document.querySelectorAll('.view-label').forEach(el => {
+        el.innerText = tripData.budgetView === 'per_head' ? 'PER PERSON' : 'GROUP TOTAL';
+      });
+
+      renderBudget();
+    }
+
+    // INITIALIZE PORTAL
+    function bootstrapPortal() {
+      const heroBanner = document.getElementById('hero-banner');
+      if (heroBanner) {
+        heroBanner.addEventListener('mouseenter', window.pauseSlideshow);
+        heroBanner.addEventListener('mouseleave', window.resumeSlideshow);
+      }
+
+      renderAll();
+      initHeroSlideshow();
+      renderAltitudeTracker();
+      initSnowfall();
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+      initCloudSync();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bootstrapPortal);
+    } else {
+      bootstrapPortal();
+    }
+  </script>
+</body>
+</html>
